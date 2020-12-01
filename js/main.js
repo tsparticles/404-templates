@@ -23,7 +23,7 @@ $(document).ready(function () {
                 focusable: false,
                 role: "img",
                 ariaLabel: item.description,
-                src: "__screenshots/" + item.image
+                src: item.imageUrl
             });
 
             card.append(image);

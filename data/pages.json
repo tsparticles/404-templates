@@ -1,17 +1,17 @@
 [
     {
         "description": "Masked 404",
-        "image": "masked.png",
+        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/masked.png?raw=true",
         "url": "masked/404.html"
     },
     {
         "description": "Simple 404",
-        "image": "simple.png",
+        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/simple.png?raw=true",
         "url": "simple/404.html"
     },
     {
         "description": "Space 404",
-        "image": "space.png",
+        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/space.png?raw=true",
         "url": "space/404.html"
     }
 ]
