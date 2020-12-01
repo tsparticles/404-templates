@@ -1,57 +1,56 @@
-var particles = {
+tsParticles.load("tsparticles", {
     fpsLimit: 60,
     particles: {
         number: {
-            value: 160,
+            value: 5,
             density: {
                 enable: true,
                 area: 800
             }
         },
         color: {
-            value: "#ffffff"
+            value: "#fcfcfc"
         },
         shape: {
             type: "circle"
         },
         opacity: {
-            value: 1,
+            value: 0.5,
             random: {
                 enable: true,
                 minimumValue: 0.1
             },
-            animation: {
-                enable: true,
-                speed: 1,
-                minimumValue: 0,
-                sync: false
-            }
         },
         size: {
-            value: 3,
+            value: 140,
             random: {
                 enable: true,
-                minimumValue: 1
+                minimumValue: 40
+            },
+            animation: {
+                enable: true,
+                speed: 10,
+                minimumValue: 40,
+                sync: false
             }
         },
         move: {
             enable: true,
-            speed: 0.17,
+            speed: 8,
             direction: "none",
-            random: true,
+            random: false,
             straight: false,
             outModes: {
                 default: "out"
-            },
+            }
         }
     },
     interactivity: {
         detectsOn: "canvas",
         events: {
-            resize: false
+            resize: true
         }
     },
     detectRetina: true
-};
+});
 
-tsParticles.load("tsparticles", particles);
