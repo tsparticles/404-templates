@@ -1,0 +1,17 @@
+[
+    {
+        "description": "Masked 404",
+        "image": "masked.png",
+        "url": "masked/404.html"
+    },
+    {
+        "description": "Simple 404",
+        "image": "simple.png",
+        "url": "simple/404.html"
+    },
+    {
+        "description": "Space 404",
+        "image": "space.png",
+        "url": "space/404.html"
+    }
+]
