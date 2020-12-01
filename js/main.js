@@ -19,7 +19,7 @@ $(document).ready(function () {
 
             image.attr({
                 width: "100%",
-                height: 225,
+                height: 196,
                 focusable: false,
                 role: "img",
                 ariaLabel: item.description,
