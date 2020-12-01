@@ -2,6 +2,12 @@
 
 tsParticles used in various 404 Pages for Websites
 
+## 404 Simple Page Preview
+
+[![simple 404](https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/simple.png?raw=true)](https://tsparticles.github.io/404-templates/simple/404.html)
+
+See working preview [here](https://tsparticles.github.io/404-templates/space/404.html)
+
 ## 404 Space Page Preview
 
 [![space 404](https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/space.png?raw=true)](https://tsparticles.github.io/404-templates/space/404.html)
