@@ -4,7 +4,7 @@ tsParticles used in various 404 Pages for Websites
 
 ## 404 Space Page Preview
 
-[![login](https://raw.githubusercontent.com/tsparticles/auth-template/master/__screenshots/login.png?raw=true)](https://tsparticles.github.io/404-templates/space/404.html)
+[![space 404](https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/space.png?raw=true)](https://tsparticles.github.io/404-templates/space/404.html)
 
 See working preview [here](https://tsparticles.github.io/404-templates/space/404.html)
 
