@@ -1,15 +1,8 @@
 tsParticles.load("tsparticles", {
     background: {
-        color: "#000",
-        image: "url('images/background.jpg')"
+        color: "#fff"
     },
-    backgroundMask: {
-        enable: true,
-        cover: {
-            color: "#fff"
-        }
-    },
-    fpsLimit: 60,
+    fpsLimit: 30,
     interactivity: {
         detectsOn: "window",
         events: {
@@ -21,15 +14,20 @@ tsParticles.load("tsparticles", {
         },
         modes: {
             bubble: {
-                distance: 500,
+                distance: 300,
                 opacity: 0.8,
-                size: 200
+                size: 100
             }
         }
     },
     particles: {
         color: {
-            value: "#000"
+            value: ["#f00", "#0f0", "#00f", "#ff0", "#0ff", "#f0f"],
+            animation: {
+                enable: true,
+                speed: 20,
+                sync: false
+            }
         },
         move: {
             direction: "none",
@@ -46,7 +44,7 @@ tsParticles.load("tsparticles", {
                 enable: true,
                 area: 800
             },
-            value: 80
+            value: 160
         },
         opacity: {
             random: {
@@ -65,9 +63,9 @@ tsParticles.load("tsparticles", {
         size: {
             random: {
                 enable: true,
-                minimumValue: 50
+                minimumValue: 25
             },
-            value: 75
+            value: 50
         }
     },
     detectRetina: true
