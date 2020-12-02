@@ -2,7 +2,7 @@ tsParticles.load("tsparticles", {
     background: {
         color: "#fff"
     },
-    fpsLimit: 30,
+    fpsLimit: 60,
     interactivity: {
         detectsOn: "window",
         events: {
