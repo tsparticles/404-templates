@@ -1,0 +1,58 @@
+/* ---- reset ---- */
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+}
+
+/* ---- tsparticles container ---- */
+#tsparticles {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    filter: blur(30px);
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-family: "Nerko One", cursive;
+    position: relative;
+    color: rgb(236, 32, 32);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: rgb(210, 243, 61);
+}
+
+@media (max-aspect-ratio: 10/5) {
+    h1 {
+        font-size: 40vw !important;
+        letter-spacing: 10px !important;
+    }
+}
+
+@media (min-aspect-ratio: 10/5) {
+    h1 {
+        font-size: 100vh !important;
+        letter-spacing: 100px !important;
+    }
+}
+
+#container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    mix-blend-mode: screen;
+    background: rgb(97, 21, 21);
+}
