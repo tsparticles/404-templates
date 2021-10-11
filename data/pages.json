@@ -1,5 +1,10 @@
 [
     {
+        "description": "Links 404",
+        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/links.png?raw=true",
+        "url": "links/404.html"
+    },
+    {
         "description": "Masked 404",
         "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/masked.png?raw=true",
         "url": "masked/404.html"
