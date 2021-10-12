@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0;}
+h1 {font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";font-size:5em;color:rgb(0,0,255);}
+p {font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";font-size:2em;color:rgb(0,0,255);}
+canvas {display:block;vertical-align:top;top:0;}
+#tsparticles{margin-right:auto;margin-left:auto;width:95%;background-color:rgb(255,255,255);text-align:center;}
