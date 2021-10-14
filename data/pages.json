@@ -23,10 +23,15 @@
         "description": "Polygon 404",
         "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/polygon.png?raw=true",
         "url": "polygon/404.html"
-    }
-	{
+    },
+	  {
         "description": "Blue Dots 404",
         "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/dots.png?raw=true",
         "url": "dots/404.html"
+    },
+    {
+        "description": "Snowfall 404",
+        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/snowfall.png?raw=true",
+        "url": "snowfall/404.html"
     }
 ]
