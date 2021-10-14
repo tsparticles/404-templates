@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0;}
+#tsparticles{margin-right:auto;margin-left:auto;width:95%;text-align:center; display:flex;}
+.images {
+     text-align:center; width:50%; height:auto; margin-top:20%;
+     opacity:80%;
+}
+.para {
+    text-align: center;
+    width: 50%;
+    height: auto;
+    margin: 2%;
+  
+
+}
+h2 {
+    font-size: 100px;
+    opacity: 40%;
+}
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    opacity: 60%;
+}
+button {
+    opacity: 50%;
+    font-size: 17px;
+    background-color: #cccccc;
+    padding: 3%;
+    margin-top: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#cup{width:125px;height:auto; margin-bottom:5%;}
+#cat{width:300px;height:auto;}
