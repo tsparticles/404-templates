@@ -11,23 +11,6 @@ body {
     position: relative;
 }
 
-.container-wrapper .error {
-    margin: 0 0 40px 0;
-    font-size: 33px;
-    color: #fff;
-    text-align: center;
-}
-
-.container-wrapper {
-    max-width: 400px;
-    margin: 10% auto 8%;
-    padding: 40px;
-    box-sizing: border-box;
-    background: rgba(57, 89, 116, 0.25);
-    box-shadow: 1px 1px 10px 1px #000000, 8px 8px 0px 0px #344454, 12px 12px 10px 0px #000000;
-    position: relative;
-    padding-top: 80px;
-}
 
 #tsparticles {
     width: 100%;
