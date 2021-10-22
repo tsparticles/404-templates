@@ -8,13 +8,13 @@ body {
   margin: 0;
 }
 
-#notfound {
+#tsparticles {
   position: relative;
   height: 100vh;
   background: #030005;
 }
 
-#notfound .notfound {
+#tsparticles .tsparticles {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -23,21 +23,21 @@ body {
           transform: translate(-50%, -50%);
 }
 
-.notfound {
+.tsparticles {
   max-width: 767px;
   width: 100%;
   line-height: 1.4;
   text-align: center;
 }
 
-.notfound .notfound-404 {
+.tsparticles .tsparticles-404 {
   position: relative;
   height: 180px;
   margin-bottom: 20px;
   z-index: -1;
 }
 
-.notfound .notfound-404 h1 {
+.tsparticles .tsparticles-404 h1 {
   font-family: 'Montserrat', sans-serif;
   position: absolute;
   left: 50%;
@@ -57,7 +57,7 @@ body {
 }
 
 
-.notfound .notfound-404 h2 {
+.tsparticles .tsparticles-404 h2 {
   font-family: 'Montserrat', sans-serif;
   position: absolute;
   left: 0;
@@ -72,7 +72,7 @@ body {
   margin: 0;
 }
 
-.notfound a {
+.tsparticles a {
   font-family: 'Montserrat', sans-serif;
   display: inline-block;
   text-transform: uppercase;
@@ -87,18 +87,18 @@ body {
   transition: 0.2s all;
 }
 
-.notfound a:hover {
+.tsparticles a:hover {
   color: #8400ff;
 }
 
 @media only screen and (max-width: 767px) {
-    .notfound .notfound-404 h2 {
+    .tsparticles .tsparticles-404 h2 {
         font-size: 24px;
     }
 }
 
 @media only screen and (max-width: 480px) {
-  .notfound .notfound-404 h1 {
+  .tsparticles .tsparticles-404 h1 {
       font-size: 182px;
   }
 }
