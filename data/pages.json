@@ -33,5 +33,10 @@
         "description": "Snowfall 404",
         "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/snowfall.png?raw=true",
         "url": "snowfall/404.html"
+    },
+    {
+        "description": "Bee 404",
+        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/bee.png?raw=true",
+        "url": "bee/404.html"
     }
 ]
