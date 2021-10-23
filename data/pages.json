@@ -38,5 +38,10 @@
         "description": "Bee 404",
         "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/bee.png?raw=true",
         "url": "bee/404.html"
+    },
+	{
+        "description": "Animated 404",
+        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/404.PNG.png?raw=true",
+        "url": "404 page/404 PAGE.html"
     }
 ]
