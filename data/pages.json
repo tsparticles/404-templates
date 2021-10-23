@@ -40,8 +40,8 @@
         "url": "bee/404.html"
     },
 	{
-        "description": "Animated 404",
-        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/Animated.png?raw=true",
-        "url": "Animated/404 PAGE.html"
+        "description": "Hexagon 404",
+        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/Hexagon.png?raw=true",
+        "url": "Hexagon/404 PAGE.html"
     }
 ]
