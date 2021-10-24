@@ -41,7 +41,7 @@
     },
 	{
         "description": "Hexagon 404",
-        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/Hexagon.png?raw=true",
-        "url": "Hexagon/404 PAGE.html"
+        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/hexagon.png?raw=true",
+        "url": "hexagon/404.html"
     }
 ]
