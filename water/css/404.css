@@ -108,19 +108,14 @@
     transform: skew(10deg, 10deg);
 }
 
-#tsparticles .bottle:hover{
-    transform: translate(-50%, -50%) rotate(360deg);
-    animation: none;
-}
-
 @keyframes move {
     0%{
-        left: 50%;
+        transform: translate(-50%, -50%) rotate(300deg);
     }
     50%{
-        left: calc(50% - 10px);
+        transform: translate(-45%, -50%) rotate(300deg);
     }
     100%{
-        left: 50%;
+        transform: translate(-50%, -50%) rotate(300deg);
     }
 }
