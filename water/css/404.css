@@ -113,7 +113,7 @@
         transform: translate(-50%, -50%) rotate(300deg);
     }
     50%{
-        transform: translate(-45%, -50%) rotate(300deg);
+        transform: translate(-40%, -50%) rotate(300deg);
     }
     100%{
         transform: translate(-50%, -50%) rotate(300deg);

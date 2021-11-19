@@ -13,9 +13,9 @@ tsParticles.load("tsparticles", {
       direction: "right",
       enable: true,
       outMode: "out",
-      random: true,
+      random: false,
       speed: 0.2,
-      straight: false,
+      straight: true,
     },
     number: {
       density: {
