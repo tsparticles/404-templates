@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    overflow: hidden;
+}
+
+.wrapper{
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    background: #10d0f1;
+    font-family: cursive;
+    text-align: center;
+}
+
+.wrapper .header{
+    font-size: 30vh;
+    color: #FFDE55;
+}
+
+.wrapper .description{
+    color: #ffd735;
+}
+
+.wrapper .sun{
+    width: 10%;
+    position: absolute;
+    top: 5%;
+    right: 15%;
+}
+
+.wrapper .truck{
+    width: 100px;
+    margin-bottom: 3px;
+    position: absolute;
+    bottom: -30px;
+    left: 2%;
+    transform: translateX(0);
+    transition: 7s;
+}
+
+.wrapper .truck.gone{
+    transform: translateX(110vw);
+}
+
+#tsparticles{
+    position: relative;
+    width: 100vw;
+    height: 40vh;
+    overflow: hidden;
+    background: linear-gradient(#00cbfd,#0050e4, #0011ac, #000288);
+}
+
+#tsparticles:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(#f1f1f1, #00cbfd);
+}
+
+#tsparticles .bottle{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(300deg);
+    width: 130px;
+    height: 50px;
+    border-radius: 10px 15px 15px 10px;
+    background: #9cf0ff46;
+    backdrop-filter: blur(1px);
+    border: 2px solid #00cbfd;
+    outline: 0;
+    color: #f1f1f1;
+    cursor: pointer;
+    animation: move 5s linear infinite;
+    box-shadow: 0 0 10px #f1f1f1 inset;
+    transition: .5s;
+}
+
+#tsparticles .bottle:before{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    background: rgb(175, 128, 66);
+    border-radius: 0px 5px 5px 0px;
+    right: -27px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#tsparticles .bottle:after{
+    content: '';
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.726);
+    top: 5px;
+    right: 5px;
+    transform: skew(10deg, 10deg);
+}
+
+@keyframes move {
+    0%{
+        transform: translate(-50%, -50%) rotate(300deg);
+    }
+    50%{
+        transform: translate(-40%, -50%) rotate(300deg);
+    }
+    100%{
+        transform: translate(-50%, -50%) rotate(300deg);
+    }
+}

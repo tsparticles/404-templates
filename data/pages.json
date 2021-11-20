@@ -43,5 +43,10 @@
         "description": "Hexagon 404",
         "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/hexagon.png?raw=true",
         "url": "hexagon/404.html"
+    },
+    {
+        "description": "Pole 404",
+        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/pole.png?raw=true",
+        "url": "pole/404.html"
     }
 ]
