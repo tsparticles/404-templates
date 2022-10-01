@@ -10,7 +10,8 @@ $(document).ready(function () {
             var card = $("<div>");
 
             card.addClass("card mb-4");
-            card.addClass("shadow-sm");
+            card.addClass("shadow-lg");
+            card.addClass("border-primary");
 
             var image = $("<img>");
 
