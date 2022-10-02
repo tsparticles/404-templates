@@ -59,6 +59,11 @@
         "url": "ocean/404.html"
     },
     {
+        "description": "Playful 404",
+        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/playful.png?raw=true",
+        "url": "playful/404.html"
+    },
+    {
         "description": "Fire 404",
         "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/fire.png?raw=true",
         "url": "fire/404.html"
