@@ -57,5 +57,10 @@
         "description": "Bottom of the Ocean",
         "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/ocean.png?raw=true",
         "url": "ocean/404.html"
+    },
+    {
+        "description": "Playful 404",
+        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/playful.png?raw=true",
+        "url": "playful/404.html"
     }
 ]
