@@ -2,7 +2,7 @@
 
 #tsparticles {
     position: fixed !important;
-    opacity: 0.23;
+    opacity: 0.5;
     height: 100vh;
 }
 

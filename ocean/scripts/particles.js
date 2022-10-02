@@ -2,7 +2,7 @@ tsParticles.load("tsparticles", {
     fpsLimit: 60,
     particles: {
         number: {
-            value: 240,
+            value: 2800,
             density: {
                 enable: true,
                 area: 1000
@@ -18,7 +18,7 @@ tsParticles.load("tsparticles", {
             value: 1,
             random: {
                 enable: true,
-                minimumValue: 0.5
+                minimumValue: 0.6
             },
             animation: {
                 enable: true,
@@ -28,7 +28,7 @@ tsParticles.load("tsparticles", {
             }
         },
         size: {
-            value: 3,
+            value: 5,
             random: {
                 enable: true,
                 minimumValue: 1
@@ -48,7 +48,7 @@ tsParticles.load("tsparticles", {
     interactivity: {
         detectsOn: "canvas",
         events: {
-            resize: false
+            resize: true
         }
     },
     detectRetina: true
