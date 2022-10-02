@@ -52,5 +52,10 @@
         "description": "Fireworks 404",
         "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/fireworks.png?raw=true",
         "url": "fireworks/404.html"
+    },
+    {
+        "description": "Bottom of the Ocean",
+        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/ocean.png?raw=true",
+        "url": "ocean/404.html"
     }
 ]
