@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap");
+body {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  z-index: 3;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 1.2em;
+  text-shadow: 0px 0px 20px #ffe1e1;
+}
+.container h1 {
+  font-size: 5em;
+  font-weight: normal;
+  margin: 0.1em;
+}
+button {
+  border: 0.1em solid white;
+  background: none;
+  font-family: inherit;
+  color: inherit;
+  padding: 1.3em;
+  margin: 1.5em;
+  font-size: 0.8em;
+  text-shadow: 0px 0px 20px #ffe1e1;
+  box-shadow: 0px 0px 20px 0px #785858;
+}
