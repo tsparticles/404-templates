@@ -1,35 +1,60 @@
 .jumbotron {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin-bottom: 0;
-    background-color: #fff;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
-  @media (min-width: 768px) {
-    .jumbotron {
-      padding-top: 6rem;
-      padding-bottom: 6rem;
-    }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+
+@media (prefers-color-scheme: dark) {
+
+  body, .jumbotron {
+    background-color: #0d1117;
+    color: #c9d1d9;
   }
-  
+
   .jumbotron p:last-child {
-    margin-bottom: 0;
+    color: #94a4b5 !important;
   }
-  
-  .jumbotron h1 {
-    font-weight: 300;
+
+  a {
+    color: #58a6ff;
   }
-  
-  .jumbotron .container {
-    max-width: 40rem;
+
+  .bg-light {
+    background-color: #161b22 !important;
   }
-  
-  footer {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+
+  .card {
+    background: #0d1117;
   }
-  
-  footer p {
-    margin-bottom: .25rem;
-  }
-  
-  
+
+}
