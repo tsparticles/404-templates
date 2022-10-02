@@ -1,60 +1,35 @@
 .jumbotron {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  margin-bottom: 0;
-  background-color: #fff;
-}
-
-@media (min-width: 768px) {
-  .jumbotron {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    background-color: #fff;
   }
-}
-
-.jumbotron p:last-child {
-  margin-bottom: 0;
-}
-
-.jumbotron h1 {
-  font-weight: 300;
-}
-
-.jumbotron .container {
-  max-width: 40rem;
-}
-
-footer {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-footer p {
-  margin-bottom: .25rem;
-}
-
-
-@media (prefers-color-scheme: dark) {
-
-  body, .jumbotron {
-    background-color: #0d1117;
-    color: #c9d1d9;
+  @media (min-width: 768px) {
+    .jumbotron {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
   }
-
+  
   .jumbotron p:last-child {
-    color: #94a4b5 !important;
+    margin-bottom: 0;
   }
-
-  a {
-    color: #58a6ff;
+  
+  .jumbotron h1 {
+    font-weight: 300;
   }
-
-  .bg-light {
-    background-color: #161b22 !important;
+  
+  .jumbotron .container {
+    max-width: 40rem;
   }
-
-  .card {
-    background: #0d1117;
+  
+  footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
-
-}
+  
+  footer p {
+    margin-bottom: .25rem;
+  }
+  
+  
