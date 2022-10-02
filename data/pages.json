@@ -57,9 +57,15 @@
         "description": "Bottom of the Ocean",
         "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/ocean.png?raw=true",
         "url": "ocean/404.html"
+
     },   {
         "description": "Traveller 404",
         "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/traveller.png?raw=true",
         "url": "traveller/404.html"
+    },
+    {
+        "description": "Fire 404",
+        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/fire.png?raw=true",
+        "url": "fire/404.html"
     }
 ]
