@@ -73,5 +73,10 @@
         "description": "Fire 404",
         "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/fire.png?raw=true",
         "url": "fire/404.html"
+    },
+    {
+        "description": "Flower 404",
+        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/flower.png?raw=true",
+        "url": "flower/404.html"
     }
 ]

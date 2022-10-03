@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Chango&display=swap");
+
+#tsparticles {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-size: 7em;
+  text-align: center;
+  font-family: "Chango", cursive;
+  position: relative;
+  color: black;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#container {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  mix-blend-mode: screen;
+  background: white;
+}
+
+#back-button {
+    border: 2px black solid;
+    margin: 1em;
+    padding: 1em;
+    font-size: 1em;
+    font-family: fantasy;
+    cursor: pointer;
+}
