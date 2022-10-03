@@ -2,7 +2,7 @@
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin-bottom: 0;
-    background-color:#343f47;
+    background-color:#05386B;
   }
   @media (min-width: 768px) {
     .jumbotron {
@@ -22,7 +22,18 @@
   .jumbotron .container {
     max-width: 40rem;
   }
-  
+  #myVideo{
+    position:relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  #content
+  {
+    position:absolute;
+    
+  }
   footer {
     padding-top: 3rem;
     padding-bottom: 3rem;
