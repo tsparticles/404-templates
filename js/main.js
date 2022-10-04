@@ -9,14 +9,11 @@ $(document).ready(function () {
 
             var card = $("<div>");
 
-            card.addClass("card mb-4");
-            card.addClass("shadow-sm");
+            card.addClass("card mb-4 shadow-sm");
 
             var image = $("<img>");
 
-            image.addClass("bd-placeholder-img");
-            image.addClass("card-img-top");
-
+            image.addClass("bd-placeholder-img card-img-top");
             image.attr({
                 width: "100%",
                 height: 196,
@@ -35,16 +32,13 @@ $(document).ready(function () {
             var cardText = $("<div>");
 
             cardText.addClass("card-text");
-
             cardText.text(item.description);
 
             cardBody.append(cardText);
 
             var cardContent = $("<div>");
-
-            cardContent.addClass("d-flex");
-            cardContent.addClass("justify-content-between");
-            cardContent.addClass("align-items-center");
+            
+            cardContent.addClass("d-flex justify-content-between align-items-center");
 
             var btnGroup = $("<div>");
 
@@ -52,12 +46,8 @@ $(document).ready(function () {
 
             var btn = $("<a>");
 
-            btn.addClass("btn");
-            btn.addClass("btn-sm");
-            btn.addClass("btn-outline-secondary");
-
+            btn.addClass("btn btn-sm btn-outline-secondary");
             btn.text("View");
-
             btn.attr({
                 href: item.url,
                 target: "_blank"
