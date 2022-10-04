@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@800&family=Noto+Serif+Gujarati:wght@500&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif Gujarati', serif;
+}
+
+.page_404
+{
+    padding: 20px 0;
+    background: #fff;
+    font-family: 'Noto Serif Gujarati', serif;
+}
+
+.page_404 img
+{
+    width: 100%;
+}
+
+.four_zero_four_bg
+{
+    background: url('./bg.gif');
+    height: 400px;
+    background-position: center;
+}
+
+h1
+{
+    font-size: 85px;
+    font-family: 'Gemunu Libre', sans-serif !important; 
+    color: #39ac31;
+}
+
+h3
+{
+    font-size: 80px;
+    font-family: 'Noto Serif Gujarati', serif !important;
+}
+
+a
+{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #39ac31;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.content_box_404
+{
+    margin-top: -50px;
+}
+a:hover
+{
+    text-decoration: none;
+    color: #fff;
+}
