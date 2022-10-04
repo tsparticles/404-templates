@@ -78,5 +78,10 @@
         "description": "Flower 404",
         "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/flower.png?raw=true",
         "url": "flower/404.html"
+    },
+    {
+        "description": "Lamp 404",
+        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/lamp.png?raw=true",
+        "url": "lamp/404.html"
     }
 ]
