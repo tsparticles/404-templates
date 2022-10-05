@@ -5,7 +5,6 @@ tsParticles.load("tsparticles", {
     detectRetina: false,
     fpsLimit: 60,
     interactivity: {
-        detectsOn: "canvas",
         events: {
             onHover: {
                 enable: true,
