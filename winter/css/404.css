@@ -1,0 +1,93 @@
+body {
+  font-family: 'Inter Tight', sans-serif;
+}
+
+.tsparticles {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.site-not-found {
+  background: url(/images/404-bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.not-found__heading {
+  font-family: 'Polar Snow', sans-serif;
+  font-size: 6rem;
+  line-height: 1;
+  color: #fff;
+  margin-bottom: 1rem;
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.2),
+    1px 1px 1px rgba(0, 0, 0, 0.6);
+  padding-top: 2rem;
+}
+
+.not-found__subheading {
+  font-size: 1.25rem;
+  line-height: 1;
+  color: rgb(239 68 68);
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.not-found__btn {
+  font-size: 0.875rem;
+  border-radius: 0.25rem;
+  padding: 0.875rem 1.25rem;
+  background-color: rgb(239 68 68);
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.not-found__btn:hover,
+.not-found__btn:focus {
+  background-color: rgb(220 38 38);
+}
+
+.freepick {
+  text-align: right;
+  display: block;
+  position: fixed;
+  bottom: 0;
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-size: 0.875rem;
+}
+
+.freepick,
+.freepick a {
+  color: #333;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found__heading {
+    font-size: 10rem;
+    padding-top: 6rem;
+  }
+
+  .not-found__subheading {
+    font-size: 2.25rem;
+    margin-bottom: 3rem;
+  }
+
+  .not-found__btn {
+    font-size: 1rem;
+    padding: 1rem 2rem;
+  }
+}

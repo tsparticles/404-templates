@@ -83,5 +83,10 @@
         "description": "Nord 404",
         "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/nord.png?raw=true",
         "url": "nord/404.html"
+    },
+    {
+        "description": "Winter 404",
+        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/winter.png?raw=true",
+        "url": "winter/404.html"
     }
 ]
