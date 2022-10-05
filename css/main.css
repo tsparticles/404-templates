@@ -2,7 +2,7 @@
   padding-top: 3rem;
   padding-bottom: 3rem;
   margin-bottom: 0;
-  background-color: #fff;
+  background-color: #cacddb;
 }
 
 @media (min-width: 768px) {
@@ -56,4 +56,8 @@ footer p {
     background: #0d1117;
   }
 
+}
+
+.card-title{
+  text-align: center;
 }
