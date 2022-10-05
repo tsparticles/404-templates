@@ -61,3 +61,14 @@ footer p {
 .card-title{
   text-align: center;
 }
+
+
+
+
+.shadow-sm:hover{
+  box-shadow: 0 2px 20px #333;
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+  border-color: 1px solid #fff
+}
