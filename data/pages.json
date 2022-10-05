@@ -78,5 +78,10 @@
         "description": "Flower 404",
         "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/flower.png?raw=true",
         "url": "flower/404.html"
+    },
+    {
+        "description": "Nord 404",
+        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/nord.png?raw=true",
+        "url": "nord/404.html"
     }
 ]
