@@ -45,11 +45,5 @@ tsParticles.load("tsparticles", {
             },
         }
     },
-    interactivity: {
-        detectsOn: "canvas",
-        events: {
-            resize: true
-        }
-    },
     detectRetina: true
 });
