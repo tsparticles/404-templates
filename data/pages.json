@@ -83,5 +83,11 @@
         "description": "Nord 404",
         "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/nord.png?raw=true",
         "url": "nord/404.html"
+    },
+    {
+        "description": "Burning 404",
+        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/burning.png?raw=true",
+        "url": "burning/404.html"
     }
+
 ]
