@@ -26,6 +26,14 @@ h2{
 
 
 }
+h3{
+    position: relative;
+    font-size: 5vw;
+    color:white;
+    animation:txtanimate 4s linear infinite;
+    
+
+}
 h2::before{
     content: attr(data-text);
     position: absolute;
@@ -48,5 +56,14 @@ h2::before{
     70%,90%
     {
        width: 100%; 
+    }
+}
+
+@keyframes txtanimate{
+    0%,10%,90%{
+        color: white;
+    }
+    70%,90%{
+        color: grey;
     }
 }
