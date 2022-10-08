@@ -66,10 +66,7 @@ $(document).ready(function () {
             pages.append(page);
         });
     });
-});
 
-$(document).ready(function() 
-{
     preloaderFadeOutTime = 3000;
     function hidePreloader () 
     {
