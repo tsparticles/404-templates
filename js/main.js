@@ -67,3 +67,14 @@ $(document).ready(function () {
         });
     });
 });
+
+$(document).ready(function() 
+{
+    preloaderFadeOutTime = 3000;
+    function hidePreloader () 
+    {
+        var preloader = $('.loader_bg');
+        preloader.fadeOut(preloaderFadeOutTime);
+    }
+    hidePreloader();
+});

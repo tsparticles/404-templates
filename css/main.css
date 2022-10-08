@@ -58,9 +58,6 @@ footer p {
 
 }
 
-
-/* preloader css */
-
 .loader_bg{
   position: fixed;
   top: 0;
@@ -71,9 +68,7 @@ footer p {
   background-color: #252525;
   width: 100%;
   min-height:100% ;
-  /* min-height:100%; */
   background-position: center;
-  /* background-repeat:repeat-x; */
   background-size:cover;
 }
 .loader{
