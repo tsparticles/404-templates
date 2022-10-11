@@ -13,7 +13,7 @@ tsParticles.load("tsparticles", {
     }
   },
   background: {
-    color:"rgb(0,0,255)",
+    color:"#0000ff",
     size: "100% 100%",
     repeat: "no-repeat"
   },
