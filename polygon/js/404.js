@@ -86,7 +86,9 @@ tsParticles.load("tsparticles", {
             y: 105,
             x: 130
         },
-        inlineArrangement: "equidistant",
+        inline: {
+            arrangement:"equidistant"
+        },
         scale: 3,
         type: "inline",
         url: "images/404.svg"
