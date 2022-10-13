@@ -20,7 +20,7 @@ tsParticles.load("tsparticles", {
         nb_sides: 6
       },
       image: {
-        src: "http://www.dynamicdigital.us/wp-content/uploads/2013/02/starburst_white_300_drop_2.png",
+        src: "images/starburst_white_300_drop_2.png",
         width: 10,
         height: 10
       }
@@ -54,17 +54,11 @@ tsParticles.load("tsparticles", {
     },
     move: {
       enable: true,
-      speed: 5,
+      speed: { min: 1, max: 3 },
       direction: "bottom",
-      random: true,
       straight: false,
       out_mode: "out",
       bounce: false,
-      attract: {
-        enable: true,
-        rotateX: 250,
-        rotateY: 1000
-      }
     }
   },
   interactivity: {

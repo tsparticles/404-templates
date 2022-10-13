@@ -46,7 +46,7 @@ tsParticles.load("tsparticles", {
                 default: "bounce"
             },
             random: false,
-            speed: 1,
+            speed: { min: 0.5, max: 1 },
             straight: false
         },
         number: {
@@ -86,7 +86,9 @@ tsParticles.load("tsparticles", {
             y: 105,
             x: 130
         },
-        inlineArrangement: "equidistant",
+        inline: {
+            arrangement:"equidistant"
+        },
         scale: 3,
         type: "inline",
         url: "images/404.svg"

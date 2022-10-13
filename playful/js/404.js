@@ -54,7 +54,7 @@ tsParticles
       },
       move: {
         enable: true,
-        speed: 15,
+        speed: 5,
         direction: "none",
         random: false,
         straight: false,
@@ -103,7 +103,7 @@ tsParticles
           particles_nb: 2
         },
         trail: {
-          delay: 0.005,
+          delay: 0.05,
           quantity: 5
         }
       }
