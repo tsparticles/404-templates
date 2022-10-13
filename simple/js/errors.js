@@ -36,7 +36,7 @@ tsParticles.load("tsparticles", {
         },
         move: {
             enable: true,
-            speed: 8,
+            speed: 4,
             direction: "none",
             random: false,
             straight: false,

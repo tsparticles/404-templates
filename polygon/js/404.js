@@ -46,7 +46,7 @@ tsParticles.load("tsparticles", {
                 default: "bounce"
             },
             random: false,
-            speed: 1,
+            speed: { min: 0.5, max: 1 },
             straight: false
         },
         number: {
