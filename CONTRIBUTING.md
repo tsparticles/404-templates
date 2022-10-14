@@ -39,7 +39,6 @@ Never made an open source contribution before? Wondering how contributions work 
    ```
    git switch -c branch-name-here
    ```
-
 7. Make the appropriate changes for the issue you are trying to address or the feature that you want to add
 
 
@@ -59,7 +58,6 @@ Never made an open source contribution before? Wondering how contributions work 
 
 
 12. Wait for the pull request to be reviewed by a maintainer
-
 
 13. Make changes to the pull request if the reviewing maintainer recommends them
 
