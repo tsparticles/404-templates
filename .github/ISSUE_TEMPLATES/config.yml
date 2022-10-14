@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Add more templates issue
+    url: https://github.com/tsparticles/404-templates/issues/18
+    about: All other issues proposing new templates will be closed
+  - name: GitHub Discussions
+    url: https://github.com/matteobruni/tsparticles/discussions
+    about: The official tsParticles Q&A, idea discussions or sharing awesome configurations. If you have some general questions this is the right place to ask.
+  - name: Official tsParticles Slack
+    url: https://join.slack.com/t/tsparticles/shared_invite/enQtOTcxNTQxNjQ4NzkxLWE2MTZhZWExMWRmOWI5MTMxNjczOGE1Yjk0MjViYjdkYTUzODM3OTc5MGQ5MjFlODc4MzE0N2Q1OWQxZDc1YzI
+    about: The official Slack offers more direct support.
+  - name: Official tsParticles Discord
+    url: https://discord.com/invite/hACwv45Hme
+    about: The official Discord offers more direct support.

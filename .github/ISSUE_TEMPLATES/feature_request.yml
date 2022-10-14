@@ -1,0 +1,37 @@
+name: Feature Request
+description: Tell us more about your feature request, new templates request will be not accepted. There's a dedicated issue for that.
+title: "Feature Request"
+labels: [feature_request, triage]
+assignees:
+  - matteobruni
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature request!
+        If you want to propose a new template, please check the dedicated issue [here](https://github.com/tsparticles/404-templates/issues/18)
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: request
+    attributes:
+      label: What is your request?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you want to request!
+      value: "A new feature came to my mind!"
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/matteobruni/tsparticles/blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
