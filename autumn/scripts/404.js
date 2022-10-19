@@ -13,7 +13,7 @@ tsParticles.load("tsparticles", {
             }
         },
         modes: {
-            bubble: { distance: 100, duration: 2, opacity: 0.8, size: 40, speed: 3 },
+            bubble: { distance: 100, duration: 2, opacity: 1, size: 40, speed: 3 },
             grab: { distance: 400, links: { opacity: 1 } },
             push: { quantity: 4 },
             remove: { quantity: 2 },
@@ -26,7 +26,7 @@ tsParticles.load("tsparticles", {
             color: "random",
             distance: 150,
             enable: false,
-            opacity: 0.4,
+            opacity: 1,
             width: 1
         },
         move: {
@@ -48,7 +48,7 @@ tsParticles.load("tsparticles", {
         },
         number: { density: { enable: true, area: 800 }, value: 100 },
         opacity: {
-            animation: { enable: true, minimumValue: 0.5, speed: 1, sync: false },
+            animation: { enable: true, minimumValue: 1, speed: 1, sync: false },
             random: false,
             value: 1
         },
