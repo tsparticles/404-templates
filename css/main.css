@@ -33,6 +33,17 @@ footer p {
   margin-bottom: .25rem;
 }
 
+footer {  
+  background-color: black;
+  padding: 40px;
+  font-size: 90%;
+  text-align:center;
+  margin-top: 5px;
+  margin-left: 425px;
+  font-weight:bolder;
+ }
+ 
+
 @media (prefers-color-scheme: dark) {
 
   body, .jumbotron {
