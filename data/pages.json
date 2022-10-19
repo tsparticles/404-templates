@@ -93,4 +93,9 @@
         "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/controller.png?raw=true",
         "url": "controller/404.html"
     }
+  {
+        "description": "animated 404",
+        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/animated.png?raw=true",
+        "url": "animated/404.html"
+    }
 ]
