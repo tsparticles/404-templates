@@ -92,5 +92,10 @@
         "description": "Controller 404",
         "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/controller.png?raw=true",
         "url": "controller/404.html"
+    },
+    {
+        "description": "Autumn 404",
+        "imageUrl": "/__screenshots/autumn.png?raw=true",
+        "url": "autumn/404.html"
     }
 ]
