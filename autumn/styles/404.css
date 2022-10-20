@@ -81,8 +81,7 @@ button {
 .link {
     background: none;
     padding: 12px 0px 10px 0px;
-    border: 1px solid #fff;
-    outline: 0.3px solid white;
+    border: 2px solid #fff;
     width: 150px;
     font-size: 15px;
     text-align: center;
