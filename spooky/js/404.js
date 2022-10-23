@@ -33,16 +33,6 @@ var particles = {
             },
         }
     },
-    interactivity: {
-        detectsOn: "canvas",
-        events: {
-            resize: false,
-            onClick: {
-                enable: true,
-                mode: "emitter"
-            }
-        }
-    },
     detectRetina: true
 };
 
