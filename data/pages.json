@@ -19,6 +19,11 @@
         "url": "space/404.html"
     },
     {
+        "description": "Spooky 404",
+        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/spooky.png?raw=true",
+        "url": "spooky/404.html"
+    },
+    {
         "description": "Polygon 404",
         "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/polygon.png?raw=true",
         "url": "polygon/404.html"
