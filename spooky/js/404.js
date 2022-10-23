@@ -4,7 +4,7 @@ var particles = {
     pauseOnBlur: true,
     particles: {
         number: {
-            value: 160,
+            value: 33,
             density: {
                 enable: true,
                 area: 800
