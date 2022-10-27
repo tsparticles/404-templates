@@ -108,5 +108,10 @@
         "description": "Imposter 404",
         "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/imposter.png?raw=true",
         "url": "imposter/404.html"
+    },
+    {
+        "description":"Matrix 404",
+        "imageUrl":"https://raw.githubusercontent.com/RajSpeed/404-templates/matrix/__screenshots/matrix.png?raw=true",
+        "url":"matrix/404.html"
     }
 ]
