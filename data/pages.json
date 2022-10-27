@@ -106,7 +106,7 @@
     },
     {
         "description": "Desert 404",
-        "imageUrl": "/__screenshots/desert.png?raw=true",
+        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/desert.png?raw=true",
         "url": "desert/404.html"
     },
 ]
