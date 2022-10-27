@@ -108,5 +108,10 @@
         "description": "Imposter 404",
         "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/imposter.png?raw=true",
         "url": "imposter/404.html"
+    },
+    {
+        "description": "Restriction 404",
+        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/restriction.png?raw=true",
+        "url": "restriction/404.html"
     }
 ]
