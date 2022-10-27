@@ -118,5 +118,10 @@
         "description": "Restriction 404",
         "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/restriction.png?raw=true",
         "url": "restriction/404.html"
-    }
+    },
+    {
+        "description": "Desert 404",
+        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/desert.png?raw=true",
+        "url": "desert/404.html"
+    },
 ]
