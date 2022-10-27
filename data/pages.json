@@ -101,11 +101,12 @@
     },
     {
         "description": "Imposter 404",
-        "imageUrl": "https://raw.githubusercontent.com/Rohanfizz/404-templates/main/__screenshots/imposter.png?raw=true",
+        "imageUrl": "/__screenshots/imposter.png?raw=true",
         "url": "imposter/404.html"
     },
     {
         "description": "Spooky 404",
         "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/spooky.png?raw=true",
-       
+        "url" : "spooky/404.html"
+    }
 ]
