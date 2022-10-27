@@ -1,4 +1,5 @@
-[{
+[
+    {
         "description": "Links 404",
         "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/links.png?raw=true",
         "url": "links/404.html"
@@ -99,8 +100,13 @@
         "url": "autumn/404.html"
     },
     {
+        "description": "Imposter 404",
+        "imageUrl": "https://raw.githubusercontent.com/Rohanfizz/404-templates/main/__screenshots/imposter.png?raw=true",
+        "url": "imposter/404.html"
+    },
+    {
         "description": "Desert 404",
         "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/desert.png?raw=true",
         "url": "desert/404.html"
-    }
+    },
 ]
