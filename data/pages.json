@@ -113,5 +113,10 @@
         "description":"Matrix 404",
         "imageUrl":"https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/matrix.png?raw=true",
         "url":"matrix/404.html"
+    },
+    {
+        "description": "Restriction 404",
+        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/restriction.png?raw=true",
+        "url": "restriction/404.html"
     }
 ]
