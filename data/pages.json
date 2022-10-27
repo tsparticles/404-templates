@@ -100,8 +100,13 @@
         "url": "autumn/404.html"
     },
     {
+        "description": "Wholesome 404",
+        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/wholesome.png?raw=true",
+        "url": "wholesome/404.html"
+    },
+    {
         "description": "Imposter 404",
-        "imageUrl": "https://raw.githubusercontent.com/Rohanfizz/404-templates/main/__screenshots/imposter.png?raw=true",
+        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/imposter.png?raw=true",
         "url": "imposter/404.html"
     }
 ]
