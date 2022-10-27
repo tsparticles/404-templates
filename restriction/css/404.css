@@ -18,16 +18,17 @@ canvas {
 }
 .text-center {
     position: absolute;
-    width: 30%;
+    width: 30rem;
     border-radius: 2rem;
-    height: calc(30%);
-    top: calc((100% - 30%) / 2);
+    height: 20rem;
+    top: calc((100% - 20rem) / 2);
     text-align: center;
     border: 10px solid white;
-    left: calc((100% - 30% )/2);
+    left: calc((100% - 30rem )/2);
     color: white;
     padding: 1rem;
     background-color: #000000;
+
 }
 .text-center h1 {
     font-size: 11em;
