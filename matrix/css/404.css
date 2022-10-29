@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+.text-center {
+  position: absolute;
+  width: 30%;
+  border-radius: 2rem;
+  height: calc(30%);
+  top: calc((100% - 30%) / 2);
+  text-align: center;
+  left: calc((100% - 30% )/2);
+  color: white;
+}
+.text-center h1 {
+  font-size: 11em;
+  font-family: "Roboto Mono", sans-serif;
+}
+.text-center h2 {
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 2rem;
+  margin: 0%;
+}

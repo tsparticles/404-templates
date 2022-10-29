@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+body {
+    margin: 0;
+    font: normal 75% Arial, Helvetica, sans-serif;
+}
+canvas {
+    display: block;
+}
+/* ---- tsparticles container ---- */
+#tsparticles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.text-center {
+    position: absolute;
+    width: 30rem;
+    border-radius: 2rem;
+    height: 20rem;
+    top: calc((100% - 20rem) / 2);
+    text-align: center;
+    border: 10px solid white;
+    left: calc((100% - 30rem )/2);
+    color: white;
+    padding: 1rem;
+    background-color: #000000;
+
+}
+.text-center h1 {
+    font-size: 11em;
+}
+.text-center h2 {
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 2rem;
+    margin: 0%;
+}

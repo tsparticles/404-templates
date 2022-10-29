@@ -96,17 +96,32 @@
     },
     {
         "description": "Autumn 404",
-        "imageUrl": "/__screenshots/autumn.png?raw=true",
+        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/autumn.png?raw=true",
         "url": "autumn/404.html"
     },
     {
+        "description": "Wholesome 404",
+        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/wholesome.png?raw=true",
+        "url": "wholesome/404.html"
+    },
+    {
         "description": "Imposter 404",
-        "imageUrl": "/__screenshots/imposter.png?raw=true",
+        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/imposter.png?raw=true",
         "url": "imposter/404.html"
     },
     {
-        "description": "Spooky 404",
-        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/spooky.png?raw=true",
-        "url" : "spooky/404.html"
+        "description":"Matrix 404",
+        "imageUrl":"https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/matrix.png?raw=true",
+        "url":"matrix/404.html"
+    },
+    {
+        "description": "Restriction 404",
+        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/restriction.png?raw=true",
+        "url": "restriction/404.html"
+    },
+    {
+        "description": "Desert 404",
+        "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/desert.png?raw=true",
+        "url": "desert/404.html"
     }
 ]
