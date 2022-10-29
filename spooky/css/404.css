@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Creepster");
+
+/** Styles for the 404 Page **/
+
+.particle-error,
+.black_coven,
+#tsparticles {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    margin: 0px !important;
+}
+
+#tsparticles {
+    position: fixed !important;
+    opacity: 0.33;
+}
+
+.spooky_message {
+    color:  #990909;
+    max-width: 390px;
+    width: 100%;
+    height: 390px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 8vh;
+    font-family: "Creepster", sans-serif;
+}
+
+.spooky_message p {
+    text-align: center;
+}
+
+.spooky_message h1, h2, h3, p  {
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 0.2em;
+}
+
+.spooky_message h1 {
+    text-align: center;
+    color:  #FF5733 ;
+    font-weight: bolder;
+    font-size: 6em;
+    margin-bottom: 0px;
+    margin-top: 0.2em;
+    font-weight: 800;
+}
+
+.spooky_message h2 {
+    text-align: center;
+    text-decoration: double;
+    font-style: italic;
+}
+
+.spooky_message h3 {
+    text-align: center;
+    font-size: 19px;
+    line-height: 23px;
+    max-width: 330px;
+    margin: 0px auto 30px auto;
+    font-weight: 400;
+}
+
+.spooky_link {
+    background: none;
+    color: #fff;
+    padding: 12px 0px 10px 0px;
+    outline: none;
+    border-radius: 7px;
+    width: 150px;
+    font-size: 15px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 40px;
+    margin-top: 25px;
+    font-weight: 400;
+}
+
+.spooky_link:hover {
+    color: #ffbb39;
+    border-color: #ffbb39;
+    cursor: pointer;
+    opacity: 1;
+}
