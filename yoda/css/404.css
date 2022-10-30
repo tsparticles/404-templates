@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Trispace:wght@200;300;400&display=swap');
 
 /** Styles for the 404 Page **/
 
@@ -22,6 +22,7 @@
 .yoda_wise_words {
     background-image: url("https://th.bing.com/th/id/R.99df35533ddf6ef9d61300fbc30e9f00?rik=iwveYdcVa7uDXg&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fyoda-head-silhouette%2fyoda-head-silhouette-10.png&ehk=wgi1Y96CINgQcEUmH%2ffNuWB6N61ZpNQnC7l1BR5rxAA%3d&risl=&pid=ImgRaw&r=0");
     color:  #F2B707;
+   
     width: 100vw;
     height: 100vh;
     display: block;
@@ -43,6 +44,7 @@
 .yoda_wise_words h1 {
     text-align: center;
     color: #F2F0D0 ;
+     text-shadow: 0 0 10px gold, 0 0 20px firebrick, 0 0 40px pink, 0 0 80px yellowgreen;
     font-weight: bolder;
     font-size: 20em;
     margin-bottom: 0px;
@@ -53,6 +55,8 @@
 .yoda_wise_words h2 {
     text-align: center;
     text-decoration: none;
+     font-size: 5em;
+     text-shadow: 0 0 10px gold, 0 0 10px green, 0 0 20px pink, 0 0 80px yellowgreen;
     
 }
 
@@ -64,24 +68,31 @@
     margin: 0px auto 30px auto;
     font-weight: 400;
 }
+.yoda_wise_words a{
+    text-decoration: none;
+}
 
-.spooky_link {
+.home_link {
     background: none;
     color: #fff;
     padding: 12px 0px 10px 0px;
     outline: none;
     border-radius: 7px;
-    width: 150px;
-    font-size: 15px;
+    width: 10%;
+    font-size: 2rem;
     text-align: center;
+  
+    font-family: "Trispace";
     margin: 0 auto;
     display: block;
     margin-bottom: 40px;
-    margin-top: 25px;
+    margin-top: 10%;
     font-weight: 400;
 }
 
-.spooky_link:hover {
+  
+
+.home_link:hover {
     color: #ffbb39;
     border-color: #ffbb39;
     cursor: pointer;
