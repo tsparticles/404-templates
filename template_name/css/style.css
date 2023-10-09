@@ -1,0 +1,23 @@
+template_name/css/style.css:
+
+/* Add necessary CSS styles to customize the appearance of the 404 page */
+
+/* Example styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+p {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Add any additional CSS rules and selectors as needed */
