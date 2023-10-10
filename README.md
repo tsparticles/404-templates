@@ -20,6 +20,14 @@ See working preview [here](https://tsparticles.github.io/404-templates/simple/40
 
 See working preview [here](https://tsparticles.github.io/404-templates/space/404.html)
 
+## 404 New Template Preview
+
+[![new template 404](https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/new_template.png?raw=true)](https://tsparticles.github.io/404-templates/new_template/404.html)
+
+See working preview [here](https://tsparticles.github.io/404-templates/new_template/404.html)
+
+This is a new 404 error template added to the collection. It features a simple and clean design with interactive particles animation.
+
 ## What is tsParticles
 
 [tsParticles](https://github.com/matteobruni/tsparticles) is a lightweight library for easily creating particles animations in your websites or web applications.
