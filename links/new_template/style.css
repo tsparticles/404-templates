@@ -1,0 +1,21 @@
+body.permission_denied {
+  background-color: #f5f5f5;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.notfound-404 {
+  font-size: 2.5em;
+  color: #333;
+  margin: 20px 0;
+}
+
+.notfound a {
+  font-size: 1.2em;
+  color: #333;
+  text-decoration: none;
+}
+
+.notfound a:hover {
+  color: #007bff;
+}
