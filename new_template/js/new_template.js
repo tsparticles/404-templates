@@ -37,7 +37,7 @@ tsParticles.load("tsparticles", {
   retina_detect: true
 });
 
-const homeButton = document.querySelector(".home-button");
+const homeButton = document.querySelector(".correct-class-name");
 
 homeButton.addEventListener("click", () => {
   window.location.href = "index.html";
