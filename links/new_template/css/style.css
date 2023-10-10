@@ -1,0 +1,26 @@
+/* Basic styles for 404 error page */
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#notfound {
+  text-align: center;
+}
+
+.notfound-404 {
+  font-size: 5em;
+  font-weight: 700;
+  color: #333;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
