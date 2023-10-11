@@ -136,7 +136,7 @@
     },
     {
         "description": "Party 404",
-        "imageUrl": "",
+        "imageUrl": "https://github.com/Ahasasjain/404-templates/blob/Party404/__screenshots/party.png",
         "url" : "party/404.html"
     }
 ]
