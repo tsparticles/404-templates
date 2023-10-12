@@ -9,10 +9,10 @@ var particles = {
       },
     },
     color: {
-      value: '#008781',
+      value: "#008781",
     },
     shape: {
-      type: 'circle',
+      type: "circle",
     },
     opacity: {
       value: 1,
@@ -37,16 +37,16 @@ var particles = {
     move: {
       enable: true,
       speed: 17,
-      direction: 'down',
+      direction: "down",
       random: false,
       straight: true,
       outModes: {
-        default: 'out',
+        default: "out",
       },
     },
   },
   interactivity: {
-    detectsOn: 'canvas',
+    detectsOn: "canvas",
     events: {
       resize: false,
     },
@@ -54,4 +54,4 @@ var particles = {
   detectRetina: true,
 };
 
-tsParticles.load('tsparticles', particles);
+tsParticles.load("tsparticles", particles);

@@ -1,37 +1,52 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-1752YPLP7H"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-1752YPLP7H");
+    </script>
+
     <title>Snowfall | tsParticles 404</title>
     <link rel="stylesheet" href="css/app.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela">
-    <link rel="icon" type="image/x-icon" href="../images/tsParticles-64.png">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Varela"
+    />
+    <link rel="icon" type="image/x-icon" href="../images/tsParticles-64.png" />
+  </head>
+  <body>
     <div id="tsparticles"></div>
-    <div style="display:inline-flex">
-        <div class="images">
-            <img id="cup" src="images/cup.svg" />
-            <img id="cat" src="images/cat.svg" />
-        </div>
-        <div class="para">
-            <header>
-                <h2>404.</h2>
-                <h3>Sorry, Wrong Door.</h3>
-            </header>
+    <div style="display: inline-flex">
+      <div class="images">
+        <img id="cup" src="images/cup.svg" />
+        <img id="cat" src="images/cat.svg" />
+      </div>
+      <div class="para">
+        <header>
+          <h2>404.</h2>
+          <h3>Sorry, Wrong Door.</h3>
+        </header>
 
-            <p>
-                Don't worry, sometimes even we make mistakes.
-                You can find plenty of other things on our homepage.
-            </p>
+        <p>
+          Don't worry, sometimes even we make mistakes. You can find plenty of
+          other things on our homepage.
+        </p>
 
-            <button>
-                Back to Homepage
-            </button>
-        </div>
+        <button>Back to Homepage</button>
+      </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.3.4/tsparticles.bundle.min.js"></script>
-    <script src="js/app.js">
-    </script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
 </html>

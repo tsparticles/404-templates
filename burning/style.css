@@ -1,70 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@800&family=Noto+Serif+Gujarati:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@800&family=Noto+Serif+Gujarati:wght@500&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    -webkit-text-size-adjust: none;
-    /* overflow: hidden; */
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: none;
+  /* overflow: hidden; */
 }
 #tsparticles {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
-.container{
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    flex-direction: column;
+.container {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
 }
 
-#heading{
-    font-family: 'Gemunu Libre', sans-serif;
+#heading {
+  font-family: "Gemunu Libre", sans-serif;
+  color: orange;
+  animation: animate 4s infinite;
+  font-size: 130px;
+}
+
+#subheading {
+  font-family: "Noto Serif Gujarati", serif;
+}
+
+@keyframes animate {
+  0% {
     color: orange;
-    animation: animate 4s infinite;
-    font-size: 130px;
-}
-
-#subheading{
-    font-family: 'Noto Serif Gujarati', serif;
-
-}
-
-@keyframes animate{
-    0%{
-        color: orange;
-        text-shadow: 0 0 4px #ff00004f, 0 0 10px #ff000091, 0 0 20px #FF0000;
-    }
-    50%{
-        color: red;
-        text-shadow: 0 0 4px rgba(255, 166, 0, 0.277), 0 0 10px rgba(255, 166, 0, 0.56), 0 0 20px orange;
-    }
-    100%{
-        color: orange;
-        text-shadow: 0 0 4px #ff00004f, 0 0 10px #ff000091, 0 0 20px #FF0000;
-    }
-}
-
-.button{
-    background: transparent;
-    padding: 5px 10px;
-    border-radius: 5px;
-    margin-top: 80px;
-    border: 1px solid rgb(255, 89, 0);
-}
-.button a{
+    text-shadow:
+      0 0 4px #ff00004f,
+      0 0 10px #ff000091,
+      0 0 20px #ff0000;
+  }
+  50% {
     color: red;
-    text-decoration: none;
-    font-family: 'Noto Serif Gujarati', serif;
+    text-shadow:
+      0 0 4px rgba(255, 166, 0, 0.277),
+      0 0 10px rgba(255, 166, 0, 0.56),
+      0 0 20px orange;
+  }
+  100% {
+    color: orange;
+    text-shadow:
+      0 0 4px #ff00004f,
+      0 0 10px #ff000091,
+      0 0 20px #ff0000;
+  }
 }
 
-.button:hover{
-    background: rgb(255, 89, 0);
+.button {
+  background: transparent;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 80px;
+  border: 1px solid rgb(255, 89, 0);
 }
-.button a:hover{
-    color: yellow;
+.button a {
+  color: red;
+  text-decoration: none;
+  font-family: "Noto Serif Gujarati", serif;
+}
+
+.button:hover {
+  background: rgb(255, 89, 0);
+}
+.button a:hover {
+  color: yellow;
 }

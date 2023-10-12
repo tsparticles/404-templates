@@ -1,5 +1,5 @@
-let truck = document.querySelector('.truck');
-let bottle = document.querySelector('.bottle');
+let truck = document.querySelector(".truck");
+let bottle = document.querySelector(".bottle");
 
 tsParticles.load("tsparticles", {
   fullScreen: {
@@ -119,6 +119,6 @@ tsParticles.load("tsparticles", {
   },
 });
 
-bottle.addEventListener('click', () => {
-    truck.classList.add('gone');
+bottle.addEventListener("click", () => {
+  truck.classList.add("gone");
 });

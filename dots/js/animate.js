@@ -8,45 +8,45 @@ tsParticles.load("tsparticles", {
       value: {
         r: 255,
         g: 255,
-        b: 255
-      }
-    }
+        b: 255,
+      },
+    },
   },
   background: {
-    color:"#0000ff",
+    color: "#0000ff",
     size: "100% 100%",
-    repeat: "no-repeat"
+    repeat: "no-repeat",
   },
   fullScreen: {
     enable: true,
-    zIndex: -1
+    zIndex: -1,
   },
   particles: {
     color: {
       value: "#000000",
       animation: {
         enable: true,
-        speed: 700
-      }
+        speed: 700,
+      },
     },
     move: {
       direction: "top",
       enable: true,
       outModes: {
-        default: "out"
+        default: "out",
       },
       size: true,
       speed: {
         min: 1,
-        max: 2
-      }
+        max: 2,
+      },
     },
     number: {
       value: 200,
       density: {
         enable: true,
-        area: 800
-      }
+        area: 800,
+      },
     },
     opacity: {
       value: 1,
@@ -55,20 +55,20 @@ tsParticles.load("tsparticles", {
         startValue: "max",
         destroy: "min",
         speed: 0.2,
-        sync: true
-      }
+        sync: true,
+      },
     },
     rotate: {
       value: {
         min: 0,
-        max: 360
+        max: 360,
       },
       direction: "random",
       move: true,
       animation: {
         enable: true,
-        speed: 60
-      }
+        speed: 60,
+      },
     },
     tilt: {
       direction: "random",
@@ -76,36 +76,36 @@ tsParticles.load("tsparticles", {
       move: true,
       value: {
         min: 0,
-        max: 360
+        max: 360,
       },
       animation: {
         enable: true,
-        speed: 60
-      }
+        speed: 60,
+      },
     },
     shape: {
-      type: ["circle"]
+      type: ["circle"],
     },
     size: {
       value: {
         min: 3,
-        max: 5
-      }
+        max: 5,
+      },
     },
     roll: {
       darken: {
         enable: true,
-        value: 30
+        value: 30,
       },
       enlighten: {
         enable: true,
-        value: 30
+        value: 30,
       },
       enable: true,
       speed: {
         min: 15,
-        max: 25
-      }
+        max: 25,
+      },
     },
     wobble: {
       distance: 30,
@@ -113,8 +113,8 @@ tsParticles.load("tsparticles", {
       move: true,
       speed: {
         min: -15,
-        max: 15
-      }
-    }
-  }
+        max: 15,
+      },
+    },
+  },
 });

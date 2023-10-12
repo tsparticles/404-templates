@@ -1,4 +1,5 @@
 [
+
     {
         "description": "Links 404",
         "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/links.png?raw=true",
@@ -138,5 +139,140 @@
         "description": "Party 404",
         "imageUrl": "https://github.com/Ahasasjain/404-templates/blob/Party404/__screenshots/party.png",
         "url" : "party/404.html"
-    }
+    },
+  {
+    "description": "Links 404",
+    "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/links.png?raw=true",
+    "url": "links/404.html"
+  },
+  {
+    "description": "Masked 404",
+    "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/masked.png?raw=true",
+    "url": "masked/404.html"
+  },
+  {
+    "description": "Simple 404",
+    "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/simple.png?raw=true",
+    "url": "simple/404.html"
+  },
+  {
+    "description": "Space 404",
+    "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/space.png?raw=true",
+    "url": "space/404.html"
+  },
+  {
+    "description": "Polygon 404",
+    "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/polygon.png?raw=true",
+    "url": "polygon/404.html"
+  },
+  {
+    "description": "Blue Dots 404",
+    "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/dots.png?raw=true",
+    "url": "dots/404.html"
+  },
+  {
+    "description": "Snowfall 404",
+    "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/snowfall.png?raw=true",
+    "url": "snowfall/404.html"
+  },
+  {
+    "description": "Bee 404",
+    "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/bee.png?raw=true",
+    "url": "bee/404.html"
+  },
+  {
+    "description": "Hexagon 404",
+    "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/hexagon.png?raw=true",
+    "url": "hexagon/404.html"
+  },
+  {
+    "description": "Pole 404",
+    "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/pole.png?raw=true",
+    "url": "pole/404.html"
+  },
+  {
+    "description": "Fireworks 404",
+    "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/fireworks.png?raw=true",
+    "url": "fireworks/404.html"
+  },
+  {
+    "description": "Bottom of the Ocean",
+    "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/ocean.png?raw=true",
+    "url": "ocean/404.html"
+  },
+  {
+    "description": "Traveller 404",
+    "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/traveller.png?raw=true",
+    "url": "traveller/404.html"
+  },
+  {
+    "description": "Playful 404",
+    "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/playful.png?raw=true",
+    "url": "playful/404.html"
+  },
+  {
+    "description": "Fire 404",
+    "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/fire.png?raw=true",
+    "url": "fire/404.html"
+  },
+  {
+    "description": "Flower 404",
+    "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/flower.png?raw=true",
+    "url": "flower/404.html"
+  },
+  {
+    "description": "Nord 404",
+    "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/nord.png?raw=true",
+    "url": "nord/404.html"
+  },
+  {
+    "description": "Burning 404",
+    "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/burning.png?raw=true",
+    "url": "burning/404.html"
+  },
+  {
+    "description": "Controller 404",
+    "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/controller.png?raw=true",
+    "url": "controller/404.html"
+  },
+  {
+    "description": "Autumn 404",
+    "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/autumn.png?raw=true",
+    "url": "autumn/404.html"
+  },
+  {
+    "description": "Wholesome 404",
+    "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/wholesome.png?raw=true",
+    "url": "wholesome/404.html"
+  },
+  {
+    "description": "Imposter 404",
+    "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/imposter.png?raw=true",
+    "url": "imposter/404.html"
+  },
+  {
+    "description": "Matrix 404",
+    "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/matrix.png?raw=true",
+    "url": "matrix/404.html"
+  },
+  {
+    "description": "Matrix Revolutions 404",
+    "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/matrix-revolutions.png?raw=true",
+    "url": "matrix-revolutions/404.html"
+  },
+  {
+    "description": "Restriction 404",
+    "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/restriction.png?raw=true",
+    "url": "restriction/404.html"
+  },
+  {
+    "description": "Desert 404",
+    "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/desert.png?raw=true",
+    "url": "desert/404.html"
+  },
+  {
+    "description": "Spooky 404",
+    "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/spooky.png?raw=true",
+    "url": "spooky/404.html"
+  }
 ]

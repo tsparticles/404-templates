@@ -1,28 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 
-<html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-1752YPLP7H"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head>
+      gtag("config", "G-1752YPLP7H");
+    </script>
+
     <title>Simple | tsParticles 404</title>
     <link type="text/css" rel="stylesheet" href="css/errors.css" />
-    <link rel="icon" type="image/x-icon" href="../images/tsParticles-64.png">
-</head>
+    <link rel="icon" type="image/x-icon" href="../images/tsParticles-64.png" />
+  </head>
 
-<body>
+  <body>
     <div class="error-page">
-        <div>
-            <h1 data-h1="403">403</h1>
-            <p data-p="FORBIDDEN">FORBIDDEN</p>
-        </div>
+      <div>
+        <h1 data-h1="403">403</h1>
+        <p data-p="FORBIDDEN">FORBIDDEN</p>
+      </div>
     </div>
 
     <a href="#" class="back">GO BACK</a>
 
     <div id="tsparticles"></div>
 
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/tsparticles@2.3.4/tsparticles.bundle.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"
+    ></script>
     <script type="text/javascript" src="js/errors.js"></script>
-</body>
-
+  </body>
 </html>

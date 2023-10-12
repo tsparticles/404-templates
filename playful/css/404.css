@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Catamaran:400,800');
+@import url("https://fonts.googleapis.com/css?family=Catamaran:400,800");
 
 #tsparticles {
   position: fixed;
@@ -14,7 +14,7 @@
   -webkit-text-stroke: 2px white;
   text-align: center;
   font-size: 300px;
-  font-family: 'Catamaran', sans-serif;
+  font-family: "Catamaran", sans-serif;
   font-weight: 800;
   margin-top: 10%;
 }

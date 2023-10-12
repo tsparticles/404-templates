@@ -1,45 +1,49 @@
 tsParticles.load("tsparticles", {
-      particles: {
+  particles: {
     number: {
       value: 350,
-      limit:0,
+      limit: 0,
       density: {
         enable: false,
-        value_area: 600
-      }
+        value_area: 600,
+      },
     },
     color: {
-      value: "#ffffff"
+      value: "#ffffff",
     },
     shape: {
       type: "image",
       stroke: {
         width: 2,
-        color: "#fff"
+        color: "#fff",
       },
       polygon: {
-        nb_sides: 6
+        nb_sides: 6,
       },
-      image: [{
-        src: "images/bee_sx.png",
-        width: 64,
-        height: 64
-      },
-      {
-        src: "images/bee_dx.png",
-        width: 64,
-        height: 64
-      }],
-      images: [{
-        src: "images/bee_sx.png",
-        width: 64,
-        height: 64
-      },
-      {
-        src: "images/bee_dx.png",
-        width: 64,
-        height: 64
-      }]
+      image: [
+        {
+          src: "images/bee_sx.png",
+          width: 64,
+          height: 64,
+        },
+        {
+          src: "images/bee_dx.png",
+          width: 64,
+          height: 64,
+        },
+      ],
+      images: [
+        {
+          src: "images/bee_sx.png",
+          width: 64,
+          height: 64,
+        },
+        {
+          src: "images/bee_dx.png",
+          width: 64,
+          height: 64,
+        },
+      ],
     },
     opacity: {
       value: 1,
@@ -48,8 +52,8 @@ tsParticles.load("tsparticles", {
         enable: false,
         speed: 2,
         opacity_min: 0.2,
-        sync: false
-      }
+        sync: false,
+      },
     },
     size: {
       value: 16,
@@ -58,15 +62,15 @@ tsParticles.load("tsparticles", {
         enable: false,
         speed: 20,
         size_min: 32,
-        sync: false
-      }
+        sync: false,
+      },
     },
     line_linked: {
       enable: false,
       distance: 50,
       color: "#ffffff",
       opacity: 0.5,
-      width: 1
+      width: 1,
     },
     move: {
       enable: true,
@@ -74,21 +78,19 @@ tsParticles.load("tsparticles", {
       direction: "none",
       random: true,
       straight: false,
-      outModes: 
-      {
-        default:"bounce",
-        top:"bounce",
-        left:"bounce",
-        right:"bounce",
-        bottom:"bounce"
+      outModes: {
+        default: "bounce",
+        top: "bounce",
+        left: "bounce",
+        right: "bounce",
+        bottom: "bounce",
       },
       bounce: false,
       attract: {
         enable: true,
         rotateX: 250,
-        rotateY: 1000
+        rotateY: 1000,
       },
-
     },
   },
   interactivity: {
@@ -96,39 +98,39 @@ tsParticles.load("tsparticles", {
     events: {
       onhover: {
         enable: true,
-        mode:  "bubble"
+        mode: "bubble",
       },
       onclick: {
         enable: true,
-        mode: "repulse"
+        mode: "repulse",
       },
-      resize: true
+      resize: true,
     },
     modes: {
       grab: {
         distance: 125,
         line_linked: {
-          opacity: 1
-        }
+          opacity: 1,
+        },
       },
       bubble: {
         distance: 200,
         size: 33,
         duration: 2,
         opacity: 6,
-        speed: 2
+        speed: 2,
       },
       repulse: {
         distance: 200,
-        duration: 0.25
+        duration: 0.25,
       },
       push: {
-        particles_nb: 4
+        particles_nb: 4,
       },
       remove: {
-        particles_nb: 2
-      }
-    }
+        particles_nb: 2,
+      },
+    },
   },
-  retina_detect: true
+  retina_detect: true,
 });
