@@ -10,8 +10,8 @@
   "author": "Matteo Bruni",
   "license": "ISC",
   "scripts": {
-    "prettier": "prettier --write \"**/*.{js,ts,json,css,scss,html,md}\"",
-    "prettier:ci": "prettier --check \"**/*.{js,ts,json,css,scss,html,md}\""
+    "prettier": "npx prettier --write \"**/*.{js,ts,json,css,scss,html,md}\"",
+    "prettier:ci": "npx prettier --check \"**/*.{js,ts,json,css,scss,html,md}\""
   },
   "devDependencies": {
     "prettier": "^3.0.3"
