@@ -1,69 +1,69 @@
 $(document).ready(function () {
-    var pages = $("#pages");
+  var pages = $("#pages");
 
-    $.get('data/pages.json', function (data) {
-        $.each(data, function (idx, item) {
-            var page = $("<div>");
+  $.get("data/pages.json", function (data) {
+    $.each(data, function (idx, item) {
+      var page = $("<div>");
 
-            page.addClass("col-md-4");
+      page.addClass("col-md-4");
 
-            var card = $("<div>");
+      var card = $("<div>");
 
-            card.addClass("card mb-4 shadow-sm");
+      card.addClass("card mb-4 shadow-sm");
 
-            var image = $("<img>");
+      var image = $("<img>");
 
-            image.addClass("bd-placeholder-img card-img-top");
-            image.attr({
-                width: "100%",
-                height: 196,
-                focusable: false,
-                role: "img",
-                ariaLabel: item.description,
-                src: item.imageUrl
-            });
+      image.addClass("bd-placeholder-img card-img-top");
+      image.attr({
+        width: "100%",
+        height: 196,
+        focusable: false,
+        role: "img",
+        ariaLabel: item.description,
+        src: item.imageUrl,
+      });
 
-            card.append(image);
+      card.append(image);
 
-            var cardBody = $("<div>");
+      var cardBody = $("<div>");
 
-            cardBody.addClass("card-body");
+      cardBody.addClass("card-body");
 
-            var cardText = $("<div>");
+      var cardText = $("<div>");
 
-            cardText.addClass("card-text");
-            cardText.text(item.description);
+      cardText.addClass("card-text");
+      cardText.text(item.description);
 
-            cardBody.append(cardText);
+      cardBody.append(cardText);
 
-            var cardContent = $("<div>");
-            
-            cardContent.addClass("d-flex justify-content-between align-items-center");
+      var cardContent = $("<div>");
 
-            var btnGroup = $("<div>");
+      cardContent.addClass("d-flex justify-content-between align-items-center");
 
-            btnGroup.addClass("btn-group");
+      var btnGroup = $("<div>");
 
-            var btn = $("<a>");
+      btnGroup.addClass("btn-group");
 
-            btn.addClass("btn btn-sm btn-outline-secondary");
-            btn.text("View");
-            btn.attr({
-                href: item.url,
-                target: "_blank"
-            });
+      var btn = $("<a>");
 
-            btnGroup.append(btn);
+      btn.addClass("btn btn-sm btn-outline-secondary");
+      btn.text("View");
+      btn.attr({
+        href: item.url,
+        target: "_blank",
+      });
 
-            cardContent.append(btnGroup);
+      btnGroup.append(btn);
 
-            cardBody.append(cardContent);
+      cardContent.append(btnGroup);
 
-            card.append(cardBody);
+      cardBody.append(cardContent);
 
-            page.append(card);
+      card.append(cardBody);
 
-            pages.append(page);
-        });
+      page.append(card);
+
+      pages.append(page);
     });
+  });
 });

@@ -1,22 +1,35 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-1752YPLP7H"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head>
+      gtag("config", "G-1752YPLP7H");
+    </script>
+
     <title>Controller | tsParticles 404</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/x-icon" href="../images/tsParticles-64.png">
-</head>
+    <link rel="icon" type="image/x-icon" href="../images/tsParticles-64.png" />
+  </head>
 
-<body>
+  <body>
     <div id="tsparticles"></div>
     <div id="backdrop">
-        <div id="text">
-            <h1>404</h1>
-            <p>🎮 You're out of bounds! <a href="#">Return?</a></p>
-        </div>
+      <div id="text">
+        <h1>404</h1>
+        <p>🎮 You're out of bounds! <a href="#">Return?</a></p>
+      </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.3.4/tsparticles.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>

@@ -7,7 +7,7 @@ tsParticles.load("tsparticles", {
       animation: {
         enable: true,
         speed: 2,
-        sync:true,
+        sync: true,
       },
     },
     // Move the snow flakes to bottom for a realistic effect, "out" in outModes is for making them reappear on top once exited at the bottom of the page, the speed should be slow for a realistic effect

@@ -30,12 +30,12 @@ footer {
 }
 
 footer p {
-  margin-bottom: .25rem;
+  margin-bottom: 0.25rem;
 }
 
 @media (prefers-color-scheme: dark) {
-
-  body, .jumbotron {
+  body,
+  .jumbotron {
     background-color: #0d1117;
     color: #c9d1d9;
   }
@@ -55,5 +55,4 @@ footer p {
   .card {
     background: #0d1117;
   }
-
 }
