@@ -22,38 +22,37 @@ tsParticles.load("tsparticles", {
         inverse: true,
         acceleration: {
           min: 1,
-          max: 2
+          max: 2,
         },
         maxSpeed: {
           min: 2,
-          max: 7
+          max: 7,
         },
       },
     },
     rotate: {
       value: {
         min: 0,
-        max: 360
+        max: 360,
       },
       animation: {
         enable: true,
         speed: {
           min: 2,
           max: 5,
-        }
-      }
-
+        },
+      },
     },
     number: {
-      limit: 8
+      limit: 8,
     },
     opacity: {
-      value: 1
+      value: 1,
     },
     size: {
       value: {
         min: 15,
-        max: 35
+        max: 35,
       },
     },
     shape: {
@@ -63,26 +62,25 @@ tsParticles.load("tsparticles", {
           {
             src: "images/circle.png",
             width: 1024,
-            height: 853
+            height: 853,
           },
           {
             src: "images/cross.png",
             width: 1024,
-            height: 853
+            height: 853,
           },
           {
             src: "images/square.png",
             width: 1024,
-            height: 853
+            height: 853,
           },
           {
             src: "images/triangle.png",
             width: 1024,
-            height: 853
-          }
+            height: 853,
+          },
         ],
       },
     },
-
   },
 });

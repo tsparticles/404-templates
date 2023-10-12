@@ -1,29 +1,29 @@
 tsParticles.load("tsparticles", {
-      particles: {
+  particles: {
     number: {
       value: 350,
       density: {
         enable: true,
-        value_area: 600
-      }
+        value_area: 600,
+      },
     },
     color: {
-      value: "#ffffff"
+      value: "#ffffff",
     },
     shape: {
       type: "image",
       stroke: {
         width: 2,
-        color: "#fff"
+        color: "#fff",
       },
       polygon: {
-        nb_sides: 6
+        nb_sides: 6,
       },
       image: {
         src: "images/starburst_white_300_drop_2.png",
         width: 10,
-        height: 10
-      }
+        height: 10,
+      },
     },
     opacity: {
       value: 0.5,
@@ -32,8 +32,8 @@ tsParticles.load("tsparticles", {
         enable: false,
         speed: 2,
         opacity_min: 0.2,
-        sync: false
-      }
+        sync: false,
+      },
     },
     size: {
       value: 5,
@@ -42,15 +42,15 @@ tsParticles.load("tsparticles", {
         enable: false,
         speed: 20,
         size_min: 0.1,
-        sync: false
-      }
+        sync: false,
+      },
     },
     line_linked: {
       enable: false,
       distance: 50,
       color: "#ffffff",
       opacity: 0.5,
-      width: 1
+      width: 1,
     },
     move: {
       enable: true,
@@ -59,46 +59,46 @@ tsParticles.load("tsparticles", {
       straight: false,
       out_mode: "out",
       bounce: false,
-    }
+    },
   },
   interactivity: {
     detect_on: "canvas",
     events: {
       onhover: {
         enable: true,
-        mode:  "bubble"
+        mode: "bubble",
       },
       onclick: {
         enable: true,
-        mode: "repulse"
+        mode: "repulse",
       },
-      resize: true
+      resize: true,
     },
     modes: {
       grab: {
         distance: 125,
         line_linked: {
-          opacity: 1
-        }
+          opacity: 1,
+        },
       },
       bubble: {
         distance: 200,
         size: 33,
         duration: 2,
         opacity: 6,
-        speed: 2
+        speed: 2,
       },
       repulse: {
         distance: 200,
-        duration: 0.25
+        duration: 0.25,
       },
       push: {
-        particles_nb: 4
+        particles_nb: 4,
       },
       remove: {
-        particles_nb: 2
-      }
-    }
+        particles_nb: 2,
+      },
+    },
   },
-  retina_detect: true
+  retina_detect: true,
 });

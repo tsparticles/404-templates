@@ -1,8 +1,8 @@
 :root {
-  --gray-color: #4C566A;
-  --gray-dark-color: #2E3440;
-  --blue-1-color: #81A1C1;
-  --blue-2-color: #88C0D0;
+  --gray-color: #4c566a;
+  --gray-dark-color: #2e3440;
+  --blue-1-color: #81a1c1;
+  --blue-2-color: #88c0d0;
   --bg-color: #ffffff;
 
   --sm-font-size: 1.6rem;
@@ -19,7 +19,9 @@
 }
 
 /* Globals */
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 html {
@@ -28,7 +30,18 @@ html {
 }
 body {
   font-size: var(--sm-font-size);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
   background-color: var(--bg-color);
   color: var(--gray-color);
   display: flex;
@@ -48,7 +61,12 @@ img {
   width: 100%;
   max-width: 100%;
 }
-body,h1,h2,h3,p,a {
+body,
+h1,
+h2,
+h3,
+p,
+a {
   margin: 0;
 }
 

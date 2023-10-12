@@ -4,7 +4,7 @@
   width: 40%;
   top: 10%;
   text-align: center;
-  left: calc((100% - 40% )/2);
+  left: calc((100% - 40%) / 2);
   color: white;
 }
 .text-center h1 {

@@ -1,0 +1,19 @@
+{
+  "name": "404-templates",
+  "version": "1.0.0",
+  "private": true,
+  "description": "tsParticles 404 templates",
+  "keywords": [
+    "404",
+    "templates"
+  ],
+  "author": "Matteo Bruni",
+  "license": "ISC",
+  "scripts": {
+    "prettier": "npx prettier --write \"**/*.{js,ts,json,css,scss,html,md}\"",
+    "prettier:ci": "npx prettier --check \"**/*.{js,ts,json,css,scss,html,md}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  }
+}

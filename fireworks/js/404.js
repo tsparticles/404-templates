@@ -1,7 +1,7 @@
-(async() => {
-    await loadFireworksPreset(tsParticles);
+(async () => {
+  await loadFireworksPreset(tsParticles);
 
-    await tsParticles.load("tsparticles", {
-        preset: "fireworks",
-    });
+  await tsParticles.load("tsparticles", {
+    preset: "fireworks",
+  });
 })();
