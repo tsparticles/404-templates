@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: "Space Mono", monospace;
+}
+
+canvas {
+  display: block;
+}
+
+#tsparticles {
+  z-index: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+section {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  color: white;
+  display: grid;
+  place-content: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+h1 {
+  font-family: "Space Mono", monospace;
+  font-size: clamp(3rem, 30vw, 12rem);
+  color: #fdee00;
+  white-space: nowrap;
+  letter-spacing: 0.2em;
+  padding: 0rem;
+  border-radius: clamp(0.4rem, 0.75vw, 1rem);
+  margin: 0;
+  line-height: 1.2;
+  z-index: 3;
+  animation: jitter 1s linear infinite;
+}
+
+#back {
+  text-decoration: none;
+  font-family: "Arial", monospace;
+  color: #c0c0c0;
+  width: fit-content;
+  letter-spacing: 0.1em;
+  margin-inline: auto;
+  padding: 1em;
+}
+
+#back:hover {
+  color: #fff;
+}
+
+@keyframes jitter {
+  2%,
+  64% {
+    transform: translate(2px, 0) skew(0deg);
+  }
+  4%,
+  60% {
+    transform: translate(-2px, 0) skew(1deg);
+    filter: brightness(0.95);
+  }
+  62% {
+    transform: translate(0, 0) skew(-3deg);
+    filter: brightness(1.5);
+  }
+}
