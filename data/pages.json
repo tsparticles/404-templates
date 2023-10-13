@@ -138,5 +138,10 @@
     "description": "Spooky 404",
     "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/spooky.png?raw=true",
     "url": "spooky/404.html"
+  },
+  {
+    "description": "Jitter 404",
+    "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/jitter.png?raw=true",
+    "url": "jitter/404.html"
   }
 ]
