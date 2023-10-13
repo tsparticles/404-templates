@@ -50,6 +50,11 @@
     "url": "pole/404.html"
   },
   {
+    "description": "Party 404",
+    "imageUrl": "",
+    "url": "party/404.html"
+  },
+  {
     "description": "Fireworks 404",
     "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/fireworks.png?raw=true",
     "url": "fireworks/404.html"
