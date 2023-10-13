@@ -1,38 +1,6 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&display=swap');
-
-
 /* bubble animation  */
-/* ---- reset ---- */
-.github {
-    bottom: 10px;
-    right: 10px;
-    position: fixed;
-    border-radius: 10px;
-    background: #fff;
-    padding: 0 12px 6px 12px;
-    border: 1px solid #000;
-  }
-  
-  .github a:hover,
-  .github a:link,
-  .github a:visited,
-  .github a:active {
-    color: #000;
-    text-decoration: none;
-  }
-  
-  .github img {
-    height: 30px;
-  }
-  
-  .github #gh-project {
-    font-size: 20px;
-    padding-left: 5px;
-    font-weight: bold;
-    vertical-align: bottom;
-  }
-  
 /* text  */
 
 @media (max-width:737px) {
