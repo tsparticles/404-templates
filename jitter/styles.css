@@ -1,20 +1,17 @@
 body {
   margin: 0;
-  font-family: 'Space Mono', monospace;
+  font-family: "Space Mono", monospace;
 }
+
 canvas {
   display: block;
-  vertical-align: bottom;
 }
 
 #tsparticles {
   z-index: 0;
   position: fixed;
-  width: 100%;
-  height: 100%;
   top: 0;
   left: 0;
-  margin: 0;
 }
 section {
   position: absolute;
@@ -33,7 +30,7 @@ section {
 }
 
 h1 {
-  font-family: 'Space Mono', monospace;
+  font-family: "Space Mono", monospace;
   font-size: clamp(3rem, 30vw, 12rem);
   color: #fdee00;
   white-space: nowrap;
@@ -60,16 +57,18 @@ h1 {
   color: #fff;
 }
 
-@keyframes jitter{
-  2%,64%{
-    transform: translate(2px,0) skew(0deg);
+@keyframes jitter {
+  2%,
+  64% {
+    transform: translate(2px, 0) skew(0deg);
   }
-  4%,60%{
-    transform: translate(-2px,0) skew(1deg);
+  4%,
+  60% {
+    transform: translate(-2px, 0) skew(1deg);
     filter: brightness(0.95);
   }
-  62%{
-    transform: translate(0,0) skew(-3deg); 
+  62% {
+    transform: translate(0, 0) skew(-3deg);
     filter: brightness(1.5);
   }
 }

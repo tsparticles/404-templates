@@ -8,12 +8,12 @@ tsParticles.load({
       position: "",
       repeat: "",
       size: "",
-      opacity: 1
+      opacity: 1,
     },
     backgroundMask: {
       composite: "destination-out",
       cover: { color: { value: "#fff" }, opacity: 1 },
-      enable: false
+      enable: false,
     },
     defaultThemes: {},
     delay: 0,
@@ -29,9 +29,9 @@ tsParticles.load({
         onHover: {
           enable: true,
           mode: "repulse",
-          parallax: { enable: false, force: 2, smooth: 10 }
+          parallax: { enable: false, force: 2, smooth: 10 },
         },
-        resize: { delay: 0.5, enable: true }
+        resize: { delay: 0.5, enable: true },
       },
       modes: {
         trail: { delay: 1, pauseOnStop: false, quantity: 1 },
@@ -41,14 +41,14 @@ tsParticles.load({
           easing: "ease-out-quad",
           factor: 1,
           maxSpeed: 50,
-          speed: 1
+          speed: 1,
         },
         bounce: { distance: 200 },
         bubble: { distance: 200, duration: 0.4, mix: false },
         connect: { distance: 80, links: { opacity: 0.5 }, radius: 60 },
         grab: {
           distance: 100,
-          links: { blink: false, consent: false, opacity: 1 }
+          links: { blink: false, consent: false, opacity: 1 },
         },
         push: { default: true, groups: [], quantity: 4 },
         remove: { quantity: 2 },
@@ -66,41 +66,41 @@ tsParticles.load({
             speed: 1,
             maxSpeed: 50,
             easing: "ease-out-quad",
-            selectors: []
-          }
+            selectors: [],
+          },
         },
         slow: { factor: 3, radius: 200 },
         light: {
           area: {
             gradient: {
               start: { value: "#ffffff" },
-              stop: { value: "#000000" }
+              stop: { value: "#000000" },
             },
-            radius: 1000
+            radius: 1000,
           },
-          shadow: { color: { value: "#000000" }, length: 2000 }
-        }
-      }
+          shadow: { color: { value: "#000000" }, length: 2000 },
+        },
+      },
     },
     manualParticles: [],
     particles: {
       bounce: {
         horizontal: { random: { enable: false, minimumValue: 0.1 }, value: 1 },
-        vertical: { random: { enable: false, minimumValue: 0.1 }, value: 1 }
+        vertical: { random: { enable: false, minimumValue: 0.1 }, value: 1 },
       },
       collisions: {
         absorb: { speed: 2 },
         bounce: {
           horizontal: {
             random: { enable: false, minimumValue: 0.1 },
-            value: 1
+            value: 1,
           },
-          vertical: { random: { enable: false, minimumValue: 0.1 }, value: 1 }
+          vertical: { random: { enable: false, minimumValue: 0.1 }, value: 1 },
         },
         enable: false,
         maxSpeed: 50,
         mode: "bounce",
-        overlap: { enable: true, retries: 0 }
+        overlap: { enable: true, retries: 0 },
       },
       color: {
         value: "#ff0000",
@@ -112,7 +112,7 @@ tsParticles.load({
             speed: 1,
             delay: 0,
             decay: 0,
-            sync: true
+            sync: true,
           },
           s: {
             count: 0,
@@ -121,7 +121,7 @@ tsParticles.load({
             speed: 1,
             delay: 0,
             decay: 0,
-            sync: true
+            sync: true,
           },
           l: {
             count: 0,
@@ -130,9 +130,9 @@ tsParticles.load({
             speed: 1,
             delay: 0,
             decay: 0,
-            sync: true
-          }
-        }
+            sync: true,
+          },
+        },
       },
       groups: {},
       move: {
@@ -148,20 +148,20 @@ tsParticles.load({
           acceleration: 9.81,
           enable: false,
           inverse: false,
-          maxSpeed: 50
+          maxSpeed: 50,
         },
         path: {
           clamp: true,
           delay: { random: { enable: false, minimumValue: 0 }, value: 0 },
           enable: false,
-          options: {}
+          options: {},
         },
         outModes: {
           default: "out",
           bottom: "out",
           left: "out",
           right: "out",
-          top: "out"
+          top: "out",
         },
         random: false,
         size: false,
@@ -170,12 +170,12 @@ tsParticles.load({
         straight: false,
         trail: { enable: false, length: 10, fill: {} },
         vibrate: false,
-        warp: false
+        warp: false,
       },
       number: {
         density: { enable: true, width: 1920, height: 1080 },
         limit: 0,
-        value: 80
+        value: 80,
       },
       opacity: {
         random: { enable: false, minimumValue: 0.1 },
@@ -189,15 +189,15 @@ tsParticles.load({
           sync: false,
           mode: "auto",
           startValue: "random",
-          destroy: "none"
-        }
+          destroy: "none",
+        },
       },
       reduceDuplicates: false,
       shadow: {
         blur: 0,
         color: { value: "#000" },
         enable: false,
-        offset: { x: 0, y: 0 }
+        offset: { x: 0, y: 0 },
       },
       shape: { close: true, fill: true, options: {}, type: "circle" },
       size: {
@@ -212,8 +212,8 @@ tsParticles.load({
           sync: false,
           mode: "auto",
           startValue: "random",
-          destroy: "none"
-        }
+          destroy: "none",
+        },
       },
       stroke: { width: 0 },
       zIndex: {
@@ -221,7 +221,7 @@ tsParticles.load({
         value: 0,
         opacityRate: 1,
         sizeRate: 1,
-        velocityRate: 1
+        velocityRate: 1,
       },
       destroy: {
         bounds: {},
@@ -231,38 +231,38 @@ tsParticles.load({
           factor: { random: { enable: false, minimumValue: 0 }, value: 3 },
           rate: {
             random: { enable: false, minimumValue: 0 },
-            value: { min: 4, max: 9 }
+            value: { min: 4, max: 9 },
           },
-          sizeOffset: true
-        }
+          sizeOffset: true,
+        },
       },
       roll: {
         darken: { enable: false, value: 0 },
         enable: false,
         enlighten: { enable: false, value: 0 },
         mode: "vertical",
-        speed: 25
+        speed: 25,
       },
       tilt: {
         random: { enable: false, minimumValue: 0 },
         value: 0,
         animation: { enable: false, speed: 0, decay: 0, sync: false },
         direction: "clockwise",
-        enable: false
+        enable: false,
       },
       twinkle: {
         lines: {
           enable: true,
           frequency: 0.005,
           opacity: 1,
-          color: { value: "#ff0000" }
+          color: { value: "#ff0000" },
         },
         particles: {
           enable: true,
           frequency: 0.05,
           opacity: 1,
-          color: { value: "#ffff00" }
-        }
+          color: { value: "#ffff00" },
+        },
       },
       wobble: { distance: 5, enable: false, speed: { angle: 50, move: 10 } },
       life: {
@@ -270,20 +270,20 @@ tsParticles.load({
         delay: {
           random: { enable: false, minimumValue: 0 },
           value: 0,
-          sync: false
+          sync: false,
         },
         duration: {
           random: { enable: false, minimumValue: 0.0001 },
           value: 0,
-          sync: false
-        }
+          sync: false,
+        },
       },
       rotate: {
         random: { enable: false, minimumValue: 0 },
         value: 0,
         animation: { enable: false, speed: 0, decay: 0, sync: false },
         direction: "clockwise",
-        path: false
+        path: false,
       },
       orbit: {
         animation: {
@@ -292,12 +292,12 @@ tsParticles.load({
           speed: 1,
           decay: 0,
           delay: 0,
-          sync: false
+          sync: false,
         },
         enable: false,
         opacity: 1,
         rotation: { random: { enable: false, minimumValue: 0 }, value: 45 },
-        width: 1
+        width: 1,
       },
       links: {
         blink: false,
@@ -310,7 +310,7 @@ tsParticles.load({
         shadow: { blur: 5, color: { value: "#000" }, enable: false },
         triangles: { enable: false, frequency: 1 },
         width: 1,
-        warp: false
+        warp: false,
       },
       repulse: {
         random: { enable: false, minimumValue: 0 },
@@ -319,8 +319,8 @@ tsParticles.load({
         distance: 1,
         duration: 1,
         factor: 1,
-        speed: 1
-      }
+        speed: 1,
+      },
     },
     pauseOnBlur: true,
     pauseOnOutsideViewport: true,
@@ -329,15 +329,14 @@ tsParticles.load({
     style: {},
     themes: [],
     zLayers: 100,
-    motion: { disable: false, reduce: { factor: 4, value: true } }
-  }
+    motion: { disable: false, reduce: { factor: 4, value: true } },
+  },
 });
 
+const heading = document.querySelector("h1");
+const goBack = document.getElementById("back");
 
-const heading = document.querySelector('h1');
-const goBack = document.getElementById('back');
-
-window.addEventListener('load', () => {
+window.addEventListener("load", () => {
   shiftLetters(heading);
 });
 
@@ -350,13 +349,13 @@ goBack.onmouseover = (event) => {
 };
 
 function shiftLetters(element, duration = 50, interval = null) {
-  let letters = '!@#$%|&*?+/';
+  let letters = "!@#$%|&*?+/";
   let iteration = 0;
   clearInterval(interval);
 
   interval = setInterval(() => {
     element.innerText = element.innerText
-      .split('')
+      .split("")
       .map((letter, index) => {
         if (index < iteration) {
           return element.dataset.value[index];
@@ -364,7 +363,7 @@ function shiftLetters(element, duration = 50, interval = null) {
 
         return letters[Math.floor(Math.random() * 11)];
       })
-      .join('');
+      .join("");
 
     if (iteration >= element.dataset.value.length) {
       clearInterval(interval);
