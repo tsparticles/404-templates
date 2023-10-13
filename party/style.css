@@ -1,0 +1,106 @@
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-color: #262327;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  font-family: "Varela", sans-serif;
+  height: calc(100%);
+}
+
+#tsparticles {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+#heading {
+  align-items: center;
+  text-align: center;
+  font-family: "Gemunu Libre", sans-serif;
+  color: orange;
+  animation: animate 4s infinite;
+  font-size: 150px;
+}
+
+#subheading {
+  bottom: 20%;
+  position: relative;
+  color: rgb(255, 7, 106);
+  align-items: center;
+  text-align: center;
+  font-family: "Noto Serif Gujarati", serif;
+  font-size: 45px;
+}
+
+#subheading1 {
+  bottom: 19%;
+  position: relative;
+  color: rgb(3, 241, 209);
+  align-items: center;
+  text-align: center;
+  font-family: "Noto Serif Gujarati", serif;
+}
+
+.img3 {
+  position: absolute;
+  top: 355px;
+  left: 1%;
+  height: 300px;
+  width: auto;
+}
+
+.img2 {
+  position: absolute;
+  top: 355px;
+  left: 29%;
+  height: 315px;
+  width: auto;
+}
+
+.img1 {
+  position: absolute;
+  top: 355px;
+  left: 53%;
+  height: 315px;
+  width: auto;
+}
+
+.img4 {
+  position: absolute;
+  top: 360px;
+  left: 78%;
+  height: 300px;
+  width: auto;
+}
+
+.button-88 {
+  font-family: "Noto Serif Gujarati", serif;
+  font-weight: 650;
+  font-size: 27px;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(0deg, rgb(170, 6, 192) 0%, rgb(173, 1, 253) 100%);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+  border-radius: 10em;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-88:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+}
+
+.button-88:active {
+  box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+}
