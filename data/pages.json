@@ -51,7 +51,7 @@
   },
   {
     "description": "Party 404",
-    "imageUrl": "https://github.com/Ahasasjain/404-templates/blob/404-party-template/__screenshots/party.png",
+    "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/party.png?raw=true",
     "url": "party/404.html"
   },
   {
