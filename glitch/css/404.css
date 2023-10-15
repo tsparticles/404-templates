@@ -26,6 +26,7 @@ body {
   60% {
     transform: translate(-2px, 0) skew(0deg);
   }
+  
   62% {
     transform: translate(0, 0) skew(5deg);
   }
