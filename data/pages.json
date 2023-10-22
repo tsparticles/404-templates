@@ -1,5 +1,15 @@
 [
   {
+    "description": "light 404",
+    "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/404.png?raw=true",
+    "url": "t404/404.html"
+  },
+  {
+    "description": "dark 404",
+    "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/40x.png?raw=true",
+    "url": "t40x/40x.html"
+  },
+  {
     "description": "Glitch 404",
     "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/glitch.png?raw=true",
     "url": "glitch/404.html"
