@@ -1,5 +1,5 @@
-let truck = document.querySelector(".truck");
-let bottle = document.querySelector(".bottle");
+const truck = document.querySelector(".truck");
+const bottle = document.querySelector(".bottle");
 
 tsParticles.load("tsparticles", {
   fullScreen: {

@@ -1,17 +1,17 @@
 $(document).ready(function () {
-  var pages = $("#pages");
+  const pages = $("#pages");
 
   $.get("data/pages.json", function (data) {
     $.each(data, function (idx, item) {
-      var page = $("<div>");
+      const page = $("<div>");
 
       page.addClass("col-md-4");
 
-      var card = $("<div>");
+      const card = $("<div>");
 
       card.addClass("card mb-4 shadow-sm");
 
-      var image = $("<img>");
+      const image = $("<img>");
 
       image.addClass("bd-placeholder-img card-img-top");
       image.attr({
@@ -25,26 +25,26 @@ $(document).ready(function () {
 
       card.append(image);
 
-      var cardBody = $("<div>");
+      const cardBody = $("<div>");
 
       cardBody.addClass("card-body");
 
-      var cardText = $("<div>");
+      const cardText = $("<div>");
 
       cardText.addClass("card-text");
       cardText.text(item.description);
 
       cardBody.append(cardText);
 
-      var cardContent = $("<div>");
+      const cardContent = $("<div>");
 
       cardContent.addClass("d-flex justify-content-between align-items-center");
 
-      var btnGroup = $("<div>");
+      const btnGroup = $("<div>");
 
       btnGroup.addClass("btn-group");
 
-      var btn = $("<a>");
+      const btn = $("<a>");
 
       btn.addClass("btn btn-sm btn-outline-secondary");
       btn.text("View");

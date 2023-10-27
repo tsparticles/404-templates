@@ -1,4 +1,4 @@
-var particles = {
+const particles = {
   fpsLimit: 120,
   particles: {
     number: {

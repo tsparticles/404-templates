@@ -1,5 +1,5 @@
 // JavaScript Document
-//tsParticles library - https://github.com/matteobruni/tsparticles
+// tsParticles library - https://github.com/matteobruni/tsparticles
 
 tsParticles.load("tsparticles", {
   backgroundMask: {
