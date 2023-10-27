@@ -5,9 +5,7 @@ toggleButton.addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
 });
 
-document.addEventListener("DOMContentLoaded", function () {
-  // Your code that uses tsParticles goes here
-  tsParticles.load("tsparticles", {
+  var tsParticles={
     fps_limit: 60,
     interactivity: {
       detect_on: "canvas",
@@ -84,3 +82,4 @@ document.addEventListener("DOMContentLoaded", function () {
     retina_detect: true,
   });
 });
+tsParticles.load("tsparticles", tsparticles);
