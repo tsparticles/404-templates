@@ -1,51 +1,14 @@
 body {
   margin: 0;
-  font:
-    normal 75% Arial,
-    Helvetica,
-    sans-serif;
-}
-canvas {
-  display: block;
-}
-/* ---- tsparticles container ---- */
-#tsparticles {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
-.light-mode .particles {
-  color: #000000;
-}
-
-.dark-mode .particles {
-  color: #ffffff;
-}
-
-.particles {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.particles:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: white;
-  opacity: 0.5;
-  filter: brightness(50%);
-}
-
-.dark-mode .particles:after {
-  opacity: 1;
-  filter: none;
+  font: normal 75% Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  font-family: "Roboto", sans-serif;
+  color: #c5c5c5;
 }
 
 .light-mode {
@@ -62,10 +25,10 @@ canvas {
   position: fixed;
   top: 20px;
   right: 20px;
-  width: 60px; /* Set a fixed width for the button */
-  height: 30px; /* Set a fixed height for the button */
-  background-color: #ccc; /* Default background color for the off state */
-  border-radius: 20px; /* Round button shape */
+  width: 60px;
+  height: 30px;
+  background-color: #ccc;
+  border-radius: 20px;
   cursor: pointer;
   transition: background 0.3s;
 }
@@ -73,45 +36,28 @@ canvas {
 .toggle-button::before {
   content: "";
   position: absolute;
-  top: 3px; /* Adjust vertical position */
-  left: 3px; /* Adjust horizontal position */
-  width: 24px; /* Width of the toggle switch */
-  height: 24px; /* Height of the toggle switch */
-  background-color: white; /* Color for the switch button */
-  border-radius: 50%; /* Make it round */
-  transition: transform 0.3s; /* Smooth animation */
+  top: 3px;
+  left: 3px;
+  width: 24px;
+  height: 24px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s;
 }
 
 .dark-mode .toggle-button {
-  background-color: #3498db; /* Custom color for the on state in dark mode */
-}
-
-.light-mode .toggle-button {
-  background-color: #ccc; /* Custom color for the off state in light mode */
+  background-color: #3498db;
 }
 
 .light-mode .toggle-button::before {
-  transform: translateX(0); /* Position for the off state */
+  transform: translateX(0);
 }
 
 .dark-mode .toggle-button::before {
-  transform: translateX(30px); /* Position for the on state */
+  transform: translateX(30px);
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.7);
-  font-family: "Roboto", sans-serif;
-  color: #c5c5c5;
-}
-
-#particles-js {
+#tsparticles {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -124,25 +70,29 @@ body {
 }
 
 .error-text {
-  font-size: 200px; /* Increased font size for 404 */
+  font-size: 200px;
   margin: 0;
   animation: bounce 2s infinite;
   color: #e74c3c;
 }
 
-.secret-text {
-  font-size: 18px; /* Smaller font size */
+.secret-text,
+.joke {
+  font-size: 16px;
   margin: 10px 0;
   font-style: italic;
   position: relative;
   z-index: 1;
 }
 
-.joke {
-  font-size: 16px; /* Smaller font size */
-  font-style: italic;
-  position: relative;
-  z-index: 1;
+.secret-text::before,
+.joke::before {
+  content: "➤";
+  margin-right: 8px;
+}
+
+.secret-text::before {
+  content: "🌟";
 }
 
 .back-button {
@@ -162,128 +112,15 @@ body {
 .back-button:hover {
   background: #6cb2e1;
 }
+
 @keyframes bounce {
-  0%,
-  20%,
-  50%,
-  80%,
-  100% {
+  0%, 20%, 50%, 80%, 100% {
     transform: translateY(0);
   }
-
   40% {
     transform: translateY(-20px);
   }
-
   60% {
     transform: translateY(-10px);
   }
-}
-/* ---- reset ---- */
-
-body {
-  margin: 0;
-
-  font:
-    normal 75% Arial,
-    Helvetica,
-    sans-serif;
-}
-
-canvas {
-  display: block;
-}
-
-/* ---- tsparticles container ---- */
-
-#tsparticles {
-  position: absolute;
-
-  width: 100%;
-
-  height: 100%;
-}
-
-/* ---- toggle button ---- */
-
-.toggle-button {
-  position: fixed;
-
-  top: 20px;
-
-  right: 20px;
-
-  width: 60px; /* Set a fixed width for the button */
-
-  height: 30px; /* Set a fixed height for the button */
-
-  background-color: #ccc; /* Default background color for the off state */
-
-  border-radius: 20px; /* Round button shape */
-
-  cursor: pointer;
-
-  transition: background 0.3s;
-}
-
-.toggle-button::before {
-  content: "";
-
-  position: absolute;
-
-  top: 3px; /* Adjust vertical position */
-
-  left: 3px; /* Adjust horizontal position */
-
-  width: 24px; /* Width of the toggle switch */
-
-  height: 24px; /* Height of the toggle switch */
-
-  background-color: white; /* Color for the switch button */
-
-  border-radius: 50%; /* Make it round */
-
-  transition: transform 0.3s; /* Smooth animation */
-}
-
-.dark-mode .toggle-button {
-  background-color: #ffffff; /* Custom color for the on state in dark mode */
-}
-
-.light-mode .toggle-button {
-  background-color: #7e7e7e; /* Custom color for the off state in light mode */
-}
-
-.light-mode .toggle-button::before {
-  transform: translateX(0); /* Position for the off state */
-}
-
-.dark-mode .toggle-button::before {
-  transform: translateX(30px); /* Position for the on state */
-}
-
-/* ---- dark mode ---- */
-
-.dark-mode {
-  background-color: #000000;
-
-  color: #ffffff;
-}
-
-.dark-mode .particles {
-  color: #ffffff;
-}
-
-.dark-mode .particles:after {
-  opacity: 1;
-
-  filter: none;
-}
-
-.light-mode .particles {
-  color: #000000; /* Black */
-}
-
-.dark-mode .particles {
-  color: #ffffff; /* White */
 }
