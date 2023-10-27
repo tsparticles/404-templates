@@ -1,5 +1,11 @@
 [
   {
+    "description": "Maxtrick 404",
+    "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/maxtrick.png?raw=true",
+    "url": "maxtrick/404.html"
+  },
+
+  {
     "description": "Glitch 404",
     "imageUrl": "https://raw.githubusercontent.com/tsparticles/404-templates/main/__screenshots/glitch.png?raw=true",
     "url": "glitch/404.html"
