@@ -1,3 +1,4 @@
+/*
 // Toggle button functionality
 const toggleButton = document.querySelector(".toggle-button");
 
@@ -6,6 +7,16 @@ toggleButton.addEventListener("click", () => {
 });
 
 tsParticles.load("tsparticles", {
+*/
+document.addEventListener("DOMContentLoaded", function() {
+  // Your code that uses tsParticles goes here
+  const toggleButton = document.querySelector(".toggle-button");
+
+  toggleButton.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+  });
+
+  tsParticles.load("tsparticles", {
   fps_limit: 60,
   interactivity: {
     detect_on: "canvas",
