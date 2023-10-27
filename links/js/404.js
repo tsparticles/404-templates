@@ -1,4 +1,4 @@
-var particles = {
+const particles = {
   background: {
     color: {
       value: "#0d47a1",

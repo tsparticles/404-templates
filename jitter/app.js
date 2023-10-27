@@ -349,7 +349,7 @@ goBack.onmouseover = (event) => {
 };
 
 function shiftLetters(element, duration = 50, interval = null) {
-  let letters = "!@#$%|&*?+/";
+  const letters = "!@#$%|&*?+/";
   let iteration = 0;
   clearInterval(interval);
 

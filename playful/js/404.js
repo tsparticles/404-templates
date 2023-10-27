@@ -118,22 +118,22 @@ tsParticles
     },
   })
   .then((c) => {
-    let target = c.interactivity.element;
+    const target = c.interactivity.element;
 
-    let rect = {
+    const rect = {
       left: 0,
       top: 0,
       width: target.innerWidth,
       height: target.innerHeight,
     };
-    let point = {
+    const point = {
       x: rect.width / 2,
       y: rect.height / 2,
     };
-    let moveType = "mousemove";
+    const moveType = "mousemove";
 
     setInterval(() => {
-      let moveEvent = new MouseEvent(moveType, {
+      const moveEvent = new MouseEvent(moveType, {
         view: target,
         bubbles: true,
         cancelable: true,
@@ -141,7 +141,7 @@ tsParticles
         clientY: rect.top + point.y,
       });
 
-      let speed = 50;
+      const speed = 50;
       point.x += speed * Math.sin(Math.random() * Math.PI);
       point.y += speed * Math.cos(Math.random() * Math.PI);
 
