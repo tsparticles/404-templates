@@ -1,10 +1,9 @@
 // Toggle button functionality
-const toggleButton = document.querySelector('.toggle-button');
+const toggleButton = document.querySelector(".toggle-button");
 
-toggleButton.addEventListener('click', () => {
-  document.body.classList.toggle('dark-mode');
+toggleButton.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
 });
-
 
 tsParticles.load("tsparticles", {
   fps_limit: 60,
@@ -15,14 +14,14 @@ tsParticles.load("tsparticles", {
       onhover: {
         enable: true,
         mode: "attract",
-        parallax: { enable: false, force: 60, smooth: 10 }
+        parallax: { enable: false, force: 60, smooth: 10 },
       },
-      resize: true
+      resize: true,
     },
     modes: {
       push: { quantity: 4 },
-      attract: { distance: 200, duration: 0.4, factor: 5 }
-    }
+      attract: { distance: 200, duration: 0.4, factor: 5 },
+    },
   },
   particles: {
     color: { value: "#ffffff" },
@@ -31,7 +30,7 @@ tsParticles.load("tsparticles", {
       distance: 150,
       enable: true,
       opacity: 0.4,
-      width: 1
+      width: 1,
     },
     move: {
       attract: { enable: false, rotateX: 600, rotateY: 1200 },
@@ -41,13 +40,13 @@ tsParticles.load("tsparticles", {
       out_mode: "out",
       random: false,
       speed: 2,
-      straight: false
+      straight: false,
     },
     number: { density: { enable: true, value_area: 800 }, value: 80 },
     opacity: {
       anim: { enable: false, opacity_min: 0.1, speed: 1, sync: false },
       random: false,
-      value: 0.5
+      value: 0.5,
     },
     shape: {
       character: {
@@ -55,30 +54,30 @@ tsParticles.load("tsparticles", {
         font: "Verdana",
         style: "",
         value: "*",
-        weight: "400"
+        weight: "400",
       },
       image: {
         height: 100,
         replace_color: true,
         src: "images/github.svg",
-        width: 100
+        width: 100,
       },
       polygon: { nb_sides: 5 },
       stroke: { color: "#000000", width: 0 },
-      type: "circle"
+      type: "circle",
     },
     size: {
       anim: { enable: false, size_min: 0.1, speed: 40, sync: false },
       random: true,
-      value: 5
-    }
+      value: 5,
+    },
   },
   polygon: {
     draw: { enable: false, lineColor: "#ffffff", lineWidth: 0.5 },
     move: { radius: 10 },
     scale: 1,
     type: "none",
-    url: ""
+    url: "",
   },
-  retina_detect: true
+  retina_detect: true,
 });
