@@ -20,22 +20,22 @@ const particles = {
       type: "image",
       image: [
         {
-          src: "./image/deadstar.png", // Replace with path to your custom SVG
+          src: "./image/deadstar.png", 
           width: 100,
           height: 100,
         },
         {
-          src: "./image/ship1.png", // Replace with path to your custom SVG
+          src: "./image/ship1.png", 
           width: 100,
           height: 100,
         },
         {
-          src: "./image/ship2.png", // Replace with path to your custom SVG
+          src: "./image/ship2.png", 
           width: 100,
           height: 100,
         },
         {
-          src: "./image/ship3.png", // Replace with path to your custom SVG
+          src: "./image/ship3.png", 
           width: 100,
           height: 100,
         },
