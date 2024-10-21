@@ -20,22 +20,22 @@ const particles = {
       type: "image",
       image: [
         {
-          src: "./image/deadstar.png", 
+          src: "./image/deadstar.png",
           width: 100,
           height: 100,
         },
         {
-          src: "./image/ship1.png", 
+          src: "./image/ship1.png",
           width: 100,
           height: 100,
         },
         {
-          src: "./image/ship2.png", 
+          src: "./image/ship2.png",
           width: 100,
           height: 100,
         },
         {
-          src: "./image/ship3.png", 
+          src: "./image/ship3.png",
           width: 100,
           height: 100,
         },

@@ -27,7 +27,7 @@ body {
 
 .error-container h1 {
   font-size: 10em;
-  color: #ffcc00; 
+  color: #ffcc00;
   margin: 0;
   text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.8);
 }
