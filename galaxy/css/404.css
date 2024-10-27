@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
+/** Styles for the 404 Page **/
+
+.galaxy-background,
+#tsparticles {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  margin: 0;
+  overflow: hidden;
+}
+
+#tsparticles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.galaxy-message {
+  color: #ffffff;
+  max-width: 600px;
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  z-index: 1;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.galaxy-message h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.galaxy-message h1 {
+  color: #00f5e4;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.galaxy-message h2 {
+  color: #ff0044;
+  font-size: 2.5em;
+}
+
+.galaxy-message h3 {
+  color: #ffffff;
+  font-size: 1.5em;
+}
+
+.galaxy-message p {
+  color: #e0e0e0;
+  font-size: 1.2em;
+}
+
+.galaxy-link {
+  background: #ff0044;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.galaxy-link:hover {
+  background: #ff9f00;
+  color: #000000;
+}
